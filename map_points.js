@@ -1,9 +1,12 @@
 function mapClickEvent() {
     // Reset information text when user clicks off a point
-    information_header.innerHTML = 'Select a Point'
+    information_header.innerHTML = 'Выберете Точку'
     information_coords.innerHTML = ''
-    information_text.innerHTML = 'Click on a point on the map to see some information about what it is and where it\'s located, along with some additional pictures that can help you pinpoint <i>exactly</i> it is or what it looks like.<br><br>Use the <i>Points</i> tab to hide and show certain points on the map.'
+    information_text.innerHTML = 'Нажмите на одну из точек карты чтобы увидеть больше информации о том или ином предмете или локации. Для некоторых точек имеются вспомогательные картинки, которые помогут вам понять, о чём <i>именно</i> идёт речь и как оно выгдядит.<br><br>Используйте вкладку <i>Точки</i> чтобы показать или скрывать те или иные категории.'
     information_images.replaceChildren()
+}
+function mapClickEvent111() {
+    information_header.innerHTML = '11111111'
 }
 
 function pointClickEvent() {
@@ -83,7 +86,7 @@ points.forEach((data, pointindex) => {
                 categoryvisible = settings[settingname]
             }
         } else {
-            categoryvisible = !(categoryname == 'category_halloween_pumpkins' || categoryname == 'category_chicken_burgers' || categoryname == 'category_kerfur_parts' || categoryname == 'category_skulls')
+            categoryvisible = !(categoryname == 'category_halloween_pumpkins' || categoryname == 'category_notes' || categoryname == 'category_other_plushies'|| categoryname == 'category_chicken_burgers' || categoryname == 'category_kerfur_parts' || categoryname == 'category_skulls')
         }
 
         // Create generic category container element
@@ -110,7 +113,7 @@ points.forEach((data, pointindex) => {
         // Text label
         let textlabel = document.createElement('div')
         textlabel.classList.add('category_parentname')
-        textlabel.innerText = (data.category != '' && data.category != undefined) ? data.category : 'Miscellaneous'
+        textlabel.innerText = (data.category != '' && data.category != undefined) ? data.category : 'Другое'
         categorycontainer.appendChild(textlabel)
 
         // Add references
