@@ -225,47 +225,47 @@ const points = [
         "xPos": 10000,
         "yPos": 10000
     },
-    // Furfur Totems
+    // Алтарь Фурфураs
     {
-        "name": "Furfur Totem",
+        "name": "Алтарь Фурфура",
         "description": "",
         "related_images" : ['./images/furfur1_1.png', './images/furfur1_2.png'],
-        "category": "Furfur Totems",
+        "category": "Алтарь Фурфура",
         "icon": "./icons/furfurA_0.png",
         "xPos": -671.8,
         "yPos": -563.7
     },
     {
-        "name": "Furfur Totem",
-        "description": "Can be dug up around the rocks near the fence.",
+        "name": "Алтарь Фурфура",
+        "description": "Можно выкопать возле камней у забора.",
         "related_images" : ['./images/furfur2_1.png'],
-        "category": "Furfur Totems",
+        "category": "Алтарь Фурфура",
         "icon": "./icons/furfurA_1.png",
         "xPos": 253,
         "yPos": 585.1
     },
     {
-        "name": "Furfur Totem",
-        "description": "Can be dug up close to the root around 3am. You may need scuba gear to do it.",
+        "name": "Алтарь Фурфура",
+        "description": "Можно выкупать возле торчащей ветки в период между 2 и 3 часами ночи. Желательно иметь подводную маску.",
         "related_images" : ['./images/furfur3_1.png'],
-        "category": "Furfur Totems",
+        "category": "Алтарь Фурфура",
         "icon": "./icons/furfurA_2.png",
         "xPos": 391.1,
         "yPos": -383.7
     },
     // Metal Tiles
     {
-        "name": "Metal Tile #1",
-        "description": "Hidden in an outdoor alcove on the side of the base. You can get it by dropping down from the roof.",
+        "name": "Металлическая Плитка #1",
+        "description": "Спрятана за колонной “балкона” Базы, можно забраться спрыгнув крыши, или с помощью крюка.",
         "related_images" : ['./images/tile1_1.png', './images/tile1_2.png'],
-        "category": "Metal Tiles",
+        "category": "Металлическая Плитка",
         "icon": "./icons/metal_tile.png",
         "xPos": -9,
         "yPos": 3
     },
     {
-        "name": "Metal Tile #2",
-        "description": "On top of the post of the bridge.",
+        "name": "Металлическая Плитка #2",
+        "description": "На бревне моста.",
         "related_images" : ['./images/tile2_1.png', './images/tile2_2.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -273,8 +273,8 @@ const points = [
         "yPos": 15.1
     },
     {
-        "name": "Metal Tile #3",
-        "description": "Found at the base of a tree in the wilderness.",
+        "name": "Металлическая Плитка #3",
+        "description": "Застряла в основании ствола дерева.",
         "related_images" : ['./images/tile3_1.png', './images/tile3_2.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -282,8 +282,8 @@ const points = [
         "yPos": 173.5
     },
     {
-        "name": "Metal Tile #4",
-        "description": "Found around the rim of the cliff to the north of Yankee.",
+        "name": "Металлическая Плитка #4",
+        "description": "WIP",
         "related_images" : ['./images/tile4_1.png', './images/tile4_2.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -291,8 +291,8 @@ const points = [
         "yPos": -48
     },
     {
-        "name": "Metal Tile #5",
-        "description": "Between two supply boxes at the hole.",
+        "name": "Металлическая Плитка #5",
+        "description": "Спрятана за ящиками у Дыры",
         "related_images" : ['./images/tile5_1.png', './images/tile5_2.png', './images/tile5_3.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -300,8 +300,8 @@ const points = [
         "yPos": -23
     },
     {
-        "name": "Metal Tile #6",
-        "description": "On the roof of the guard's booth. You can get on top by parkouring on the metal poles nearby.",
+        "name": "Металлическая Плитка #6",
+        "description": "Лежит на крыше будки охранника. Залезть можно прыгая по столбам, или с помощью крюка.",
         "related_images" : ['./images/tile6_1.png', './images/tile6_2.png', './images/tile6_3.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -309,8 +309,8 @@ const points = [
         "yPos": 702.6
     },
     {
-        "name": "Metal Tile #7",
-        "description": "Found on the ground next to the green locker.",
+        "name": "Металлическая Плитка #7",
+        "description": "Лежит возле Зелёного шкафа.",
         "related_images" : ['./images/tile7_1.png', './images/tile7_2.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -319,7 +319,7 @@ const points = [
     },
     {
         "name": "Metal Tile #8",
-        "description": "Found behind the server room of uniform. Once you are near the doors, crouch under the railing and walk around the platform to find it.",
+        "description": "Лежит за стеной телескопа Uniform. Просто перелезьте через перила и пройдитесь по выступу.",
         "related_images" : ['./images/tile8_1.png', './images/tile8_2.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -328,7 +328,7 @@ const points = [
     },
     {
         "name": "Metal Tile #9",
-        "description": "This marker isn't placed wrong. Go past the fence and keep going until you hit the corner between the northern and eastern invisible walls.",
+        "description": "Да-да, именно там. Нужно будет перелезть через основном забор карты и двигаться к стыку северного и восточного барьеров.",
         "related_images" : ['./images/tile9_1.png', './images/tile9_2.png', './images/tile9_3.png'],
         "category": "Metal Tiles",
         "icon": "./icons/metal_tile.png",
@@ -337,7 +337,7 @@ const points = [
     },
     // Argemia Plushes
     {
-        "name": "Red Argemia",
+        "name": "Красная Аргемия",
         "description": "Located in a steep pit next to a donut. Interacting with the donut will teleport you back home.<br>NOTE: The walls of the pit are too steep to allow you to walk out, so you can bring your ATV into the pit or interact with the donut to get out.",
         "related_images" : ['./images/redArgemia1_1.png', './images/redArgemia1_2.png', './images/redArgemia1_3.png'],
         "category": "Plushes",
@@ -346,7 +346,7 @@ const points = [
         "yPos": -128
     },
     {
-        "name": "Green Argemia",
+        "name": "Зелёная Аргемия",
         "description": "Outside of the fence, located on the top of the mountain",
         "related_images" : ['./images/greenArgemia1_1.png', './images/greenArgemia1_2.png', './images/greenArgemia1_3.png'],
         "category": "Plushes",
@@ -355,7 +355,7 @@ const points = [
         "yPos": 828
     },
     {
-        "name": "Blue Argemia",
+        "name": "Синяя Аргемия",
         "description": "In the river near quebec.",
         "related_images" : ['./images/blueArgemia1_1.png'],
         "category": "Plushes",
@@ -364,7 +364,7 @@ const points = [
         "yPos": 398
     },
     {
-        "name": "Cyan Argemia",
+        "name": "Голубая Аргемия",
         "description": "To summon, put exactly 12 shrimp packs in the pool, and then trigger an explosion in the water. A gas can is a good way to create an explosion.",
         "related_images" : ['./images/cyanArgemia1_1.png'],
         "category": "Plushes",
@@ -373,7 +373,7 @@ const points = [
         "yPos": 23.5
     },
     {
-        "name": "Magenta Argemia",
+        "name": "Розовая Аргемия",
         "description": "Spawns after you pick up the lifecrystal signal.",
         "related_images" : ['./images/magentaArgemia1_1.png'],
         "category": "Plushes",
@@ -382,7 +382,7 @@ const points = [
         "yPos": 46.8
     },
     {
-        "name": "Yellow Argemia",
+        "name": "Жёлтая Аргемия",
         "description": "The yellow Argemia plush requires a ritual to spawn.<br>- First, place a shrimp pack (or multiple) at each corner of the map's fence.<br>- Next, place a shrimp pack on the sewer drain in the basement.<br>- Then, nearing 12:50 at night, stand in a corner of the basement and face away from the shrimp. Around 00:00, a wooshing sound will play, and you can turn to find the argemia summoned. It might take a couple minutes to spawn, so do not turn until you hear it spawn or at least 00:15.<br><br>You can use a clock/watch to help keep track of time. This ritual can be difficult to preform due to cockroaches or Arirals eating the shrimp you've placed.",
         "related_images" : ['./images/yellowArgemia1_1.png', './images/yellowArgemia1_2.png'],
         "category": "Plushes",
@@ -391,7 +391,7 @@ const points = [
         "yPos": 23
     },
     {
-        "name": "Glowing Blue Argemia",
+        "name": "Ядерная синяя Аргемия",
         "description": "Found on top of an invisible cube in the sky. The item is fixed so only player interaction can move it. You can reach it by climbing the invisible wall with a hook.",
         "related_images" : ['./images/glowingBlueArgemia1_1.png', './images/glowingBlueArgemia1_2.png'],
         "category": "Plushes",
@@ -400,7 +400,7 @@ const points = [
         "yPos": -792
     },
     {
-        "name": "Glowing Cyan Argemia",
+        "name": "Ядерная голубая Аргемия",
         "description": "Needs to be dug up using a shovel. You can use a metal detector if you're having any trouble finding it. Be careful to not let the plushie roll down the hill.",
         "related_images" : ['./images/glowingCyanArgemia1_1.png', './images/glowingCyanArgemia1_2.png', './images/glowingCyanArgemia1_3.png'],
         "category": "Plushes",
@@ -409,7 +409,7 @@ const points = [
         "yPos": 181.4
     },
     {
-        "name": "Glowing Magenta Argemia",
+        "name": "Ядерная розовая Аргемия",
         "description": "The plush's spawn location is located near the top of the tower. In order for the plush to spawn, something (a piece of trash, a drone, etc.) needs to enter the spawning location's hitbox. The usual method is placing a drone around (35.22, -37.23) and then having the drone fly straight up. You can use a digital map to place the drone accurately.<br>When the plush spawns, it will fall. Make sure to watch the drone's camera and check outside often so you don't miss it.",
         "related_images" : ['./images/glowingMagentaArgemia1_1.png', './images/glowingMagentaArgemia1_2.png'],
         "category": "Plushes",
@@ -418,7 +418,7 @@ const points = [
         "yPos": -37.23
     },
     {
-        "name": "Antibreather Plush",
+        "name": "Плюша Антибризера",
         "description": "Appears in the nest in the antibreather cave at 3:33am in-game. In order for it to spawn, you must be in the cave when the time passes. The plush won't disappear, but the plush only spawns in once, so don't lose it.<br>To open the cave, you need to be in the cave entrance when either wolfgang or the antibreather goes through it.",
         "related_images" : ['./images/antibreatherPlush1_1.png', './images/antibreatherPlush1_2.png'],
         "category": "Plushes",
@@ -428,7 +428,7 @@ const points = [
     },
     // Points of interest
     {
-        "name": "Unknown Rozital Technology",
+        "name": "Прибор Розиталов",
         "description": "Found situated between two rocks, and will do nothing until you discover a certain signal.",
         "related_images" : ['./images/rozitalTech1_1.png', './images/rozitalTech1_2.png', './images/rozitalTech1_3.png', './images/rozitalTech1_4.png'],
         "category": "Points of Interest",
@@ -437,7 +437,7 @@ const points = [
         "yPos": 44
     },
     {
-        "name": "Basalt Pillars",
+        "name": "Базальтовые столбы",
         "description": "<div style=\"color: red;\">WARNING: THIS CAN RUIN YOUR SAVE</div><br>Can be found with the metal detector. Once dug up, it'll slowly grow out of the ground and start spreading. They will slowly spread in your direction. <u>The pillars have high durability, but they can be destroyed with a crowbar or shovel.</u>",
         "related_images" : ['./images/basaltPillars1_1.png', './images/basaltPillars1_2.png'],
         "category": "",
@@ -446,7 +446,7 @@ const points = [
         "yPos": -86.1
     },
     {
-        "name": "Green Locker",
+        "name": "Зелёный шкаф",
         "description": "Insert all 9 metal tiles and press the button.",
         "related_images" : ['./images/greenLocker1_1.png'],
         "category": "Points of Interest",
@@ -455,7 +455,7 @@ const points = [
         "yPos": 627.5
     },
     {
-        "name": "Old Shack",
+        "name": "Хижина охотника",
         "description": "A dilapidated, old shack sits in the middle of the woods, and inside, a scorch mark stains the smooth dirt ground. From the mark sprouts a vibrant blood-red tree.<br>The air is strong here...",
         "related_images" : [],
         "category": "Points of Interest",
@@ -464,7 +464,7 @@ const points = [
         "yPos": 24.3
     },
     {
-        "name": "Abandoned House",
+        "name": "WIP Abandoned House",
         "description": "",
         "related_images" : [],
         "category": "Points of Interest",
@@ -473,7 +473,7 @@ const points = [
         "yPos": -655.5
     },
     {
-        "name": "Well",
+        "name": "Колодец",
         "description": "",
         "related_images" : ['./images/well1_1.png','./images/well1_2.png'],
         "category": "Points of Interest",
@@ -482,7 +482,7 @@ const points = [
         "yPos": 265.7
     },
     {
-        "name": "Bunker",
+        "name": "Бомбоубежище",
         "description": "",
         "related_images" : [],
         "category": "Points of Interest",
@@ -491,7 +491,7 @@ const points = [
         "yPos": 625.5
     },
     {
-        "name": "Picnic",
+        "name": "Пикник",
         "description": "Appears on day 8",
         "related_images" : [],
         "category": "Points of Interest",
@@ -500,7 +500,7 @@ const points = [
         "yPos": -483
     },
     {
-        "name": "Gravesite",
+        "name": "Могильные плиты",
         "description": "",
         "related_images" : [],
         "category": "Points of Interest",
@@ -510,7 +510,7 @@ const points = [
     },
     // Chicken Burgers
     {
-        "name": "Burger #1",
+        "name": "Бургер #1",
         "description": "On top of the servers.",
         "related_images" : ["./images/burger1_1.png"],
         "category": "Chicken Burgers",
@@ -519,7 +519,7 @@ const points = [
         "yPos": 27.5
     },
     {
-        "name": "Burger #2",
+        "name": "Бургер #2",
         "description": "Inside the oven.",
         "related_images" : ["./images/burger2_1.png"],
         "category": "Chicken Burgers",
@@ -528,7 +528,7 @@ const points = [
         "yPos": 8.8
     },
     {
-        "name": "Burger #3",
+        "name": "Бургер #3",
         "description": "On top of the toilet.",
         "related_images" : ["./images/burger3_1.png"],
         "category": "Chicken Burgers",
@@ -537,7 +537,7 @@ const points = [
         "yPos": -0.1
     },
     {
-        "name": "Burger #4",
+        "name": "Бургер #4",
         "description": "On the radio tower of top of one of the antennas. You can climb the pole with a hook to reach it.",
         "related_images" : ["./images/burger4_1.png", "./images/burger4_2.png"],
         "category": "Chicken Burgers",
@@ -546,7 +546,7 @@ const points = [
         "yPos": -29.5
     },
     {
-        "name": "Burger #5",
+        "name": "Бургер #5",
         "description": "Under the basement stairs.",
         "related_images" : ["./images/burger5_1.png"],
         "category": "Chicken Burgers",
@@ -555,7 +555,7 @@ const points = [
         "yPos": 27.1
     },
     {
-        "name": "Burger #6",
+        "name": "Бургер #6",
         "description": "On the roof, on top of the air conditioning system.",
         "related_images" : ["./images/burger6_1.png"],
         "category": "Chicken Burgers",
@@ -564,7 +564,7 @@ const points = [
         "yPos": 27.3
     },
     {
-        "name": "Burger #7",
+        "name": "Бургер #7",
         "description": "On top of the Radome.",
         "related_images" : ["./images/burger7_1.png"],
         "category": "Chicken Burgers",
@@ -573,7 +573,7 @@ const points = [
         "yPos": 6.4
     },
     {
-        "name": "Burger #8",
+        "name": "Бургер #8",
         "description": "On the roof of the garage in a corner.",
         "related_images" : ["./images/burger8_1.png"],
         "category": "Chicken Burgers",
@@ -582,7 +582,7 @@ const points = [
         "yPos": 9.7
     },
     {
-        "name": "Burger #9",
+        "name": "Бургер #9",
         "description": "On top of one of the stone arches.",
         "related_images" : ['./images/burger9_1.png'],
         "category": "Chicken Burgers",
@@ -591,7 +591,7 @@ const points = [
         "yPos": 541.1
     },
     {
-        "name": "Burger #10",
+        "name": "Бургер #10",
         "description": "Under the bridge near the base.",
         "related_images" : ["./images/burger10_1.png"],
         "category": "Chicken Burgers",
@@ -600,7 +600,7 @@ const points = [
         "yPos": 12
     },
     {
-        "name": "Burger #11",
+        "name": "Бургер #11",
         "description": "Inside the large log under some rocks.",
         "related_images" : ['./images/burger11_1.png', './images/burger11_2.png'],
         "category": "Chicken Burgers",
@@ -609,7 +609,7 @@ const points = [
         "yPos": -344.5
     },
     {
-        "name": "Burger #12",
+        "name": "Бургер #12",
         "description": "On top of some supply crates in the poly testing area.",
         "related_images" : ["./images/burger12_1.png"],
         "category": "Chicken Burgers",
@@ -618,7 +618,7 @@ const points = [
         "yPos": -213.4
     },
     {
-        "name": "Burger #13",
+        "name": "Бургер #13",
         "description": "Inside the old shack, in a corner under a table.",
         "related_images" : ["./images/burger13_1.png"],
         "category": "Chicken Burgers",
@@ -627,7 +627,7 @@ const points = [
         "yPos": 24.1
     },
     {
-        "name": "Burger #14",
+        "name": "Бургер #14",
         "description": "Behind transformer 2, on the roof. Crammed between the wall and some machinery.",
         "related_images" : ["./images/burger14_1.png", "./images/burger14_2.png"],
         "category": "Chicken Burgers",
@@ -636,7 +636,7 @@ const points = [
         "yPos": 236.6
     },
     {
-        "name": "Burger #15",
+        "name": "Бургер #15",
         "description": "Located on the metal walkways that go around Juliett.",
         "related_images" : ["./images/burger15_1.png"],
         "category": "Chicken Burgers",
@@ -645,7 +645,7 @@ const points = [
         "yPos": 203.5
     },
     {
-        "name": "Burger #16",
+        "name": "Бургер #16",
         "description": "On the ground under the generator.",
         "related_images" : ["./images/burger16_1.png"],
         "category": "Chicken Burgers",
@@ -654,7 +654,7 @@ const points = [
         "yPos": -25.7
     },
     {
-        "name": "Burger #17",
+        "name": "Бургер #17",
         "description": "On the ground outside of the cave.",
         "related_images" : ["./images/burger17_1.png"],
         "category": "Chicken Burgers",
@@ -663,7 +663,7 @@ const points = [
         "yPos": -587.6
     },
     {
-        "name": "Burger #18",
+        "name": "Бургер #18",
         "description": "Inside the cave, in the middle of a pile of mushrooms.",
         "related_images" : ["./images/burger18_1.png"],
         "category": "Chicken Burgers",
@@ -672,7 +672,7 @@ const points = [
         "yPos": -581.8
     },
     {
-        "name": "Burger #19",
+        "name": "Бургер #19",
         "description": "On the ground next to the <i>Unknown Rozital Technology</i>.",
         "related_images" : ["./images/burger19_1.png"],
         "category": "Chicken Burgers",
@@ -681,7 +681,7 @@ const points = [
         "yPos": 44
     },
     {
-        "name": "Burger #20",
+        "name": "Бургер #20",
         "description": "Needs to be dug up with a shovel. A metal detector can help in finding it.",
         "related_images" : ["./images/burger20_1.png"],
         "category": "Chicken Burgers",
@@ -690,7 +690,7 @@ const points = [
         "yPos": -584.7
     },
     {
-        "name": "Burger #21",
+        "name": "Бургер #21",
         "description": "In a group of rocks behind Wiskey.",
         "related_images" : ["./images/burger21_1.png"],
         "category": "Chicken Burgers",
@@ -700,7 +700,7 @@ const points = [
     },
     // Transformers
     {
-        "name": "Power Station",
+        "name": "Трансформатор #0",
         "description": "",
         "related_images" : [],
         "category": "Transformers",
@@ -709,7 +709,7 @@ const points = [
         "yPos": 64.3
     },
     {
-        "name": "Transformer #1",
+        "name": "Трансформатор #1",
         "description": "Target with <i>sv.target TF_1</i>.<br>Supplies and explosive items are strewn throughout the building. Inside, you can find some partially-filled gas cans and a toolbox, and you can find a lighter and instructions on how to make molotovs on the desk.",
         "related_images" : [],
         "category": "Transformers",
@@ -718,7 +718,7 @@ const points = [
         "yPos": 200
     },
     {
-        "name": "Transformer #2",
+        "name": "Трансформатор #2",
         "description": "Target with <i>sv.target TF_2</i>.<br>Some trash lays around. You can find scrap and some almost-full gas cans inside. There are two benches outside.",
         "related_images" : [],
         "category": "Transformers",
@@ -727,7 +727,7 @@ const points = [
         "yPos": 234
     },
     {
-        "name": "Transformer #3",
+        "name": "Трансформатор #3",
         "description": "Target with <i>sv.target TF_3</i>.<br>Garbage litters the area and the door is boarded up, which forces you to enter with a carefully-placed crouch jump, a crowbar, or by using the vent on the side of the building. A full gas can and some batteries can be found in the supply room, and there's instructions on how to make a cooler under some of the garbage. A cat bed for Maxwell can be found behind a pallet.",
         "related_images" : [],
         "category": "Transformers",
@@ -737,7 +737,7 @@ const points = [
     },
     // Skulls
     {
-        "name": "Skull",
+        "name": "Череп",
         "description": "Behind the boxes in the corner of the basement.",
         "related_images" : ['./images/skull1_1.png'],
         "category": "Skulls",
@@ -746,7 +746,7 @@ const points = [
         "yPos": 19.74
     },
     {
-        "name": "Skull",
+        "name": "Череп",
         "description": "Dug up from under the Unknown Rozital Technology.<br>It can also be dug up while the Technology is still there if you shovel a specific point",
         "related_images" : ['./images/skull2_1.png', './images/skull2_2.png'],
         "category": "Skulls",
@@ -755,8 +755,8 @@ const points = [
         "yPos": 44.2
     },
     {
-        "name": "Skull",
-        "description": "At Stonehenge.",
+        "name": "Череп",
+        "description": "У Стоунхеджа..",
         "related_images" : ['./images/skull3_1.png'],
         "category": "Skulls",
         "icon": "./icons/skull.png",
@@ -764,7 +764,7 @@ const points = [
         "yPos": 541.1
     },
     {
-        "name": "Skull",
+        "name": "Череп",
         "description": "Inside the gravel circle.",
         "related_images" : ['./images/skull4_1.png'],
         "category": "Skulls",
@@ -773,7 +773,7 @@ const points = [
         "yPos": 47.4
     },
     {
-        "name": "Skull",
+        "name": "Череп",
         "description": "Inside the Box of Bones.",
         "related_images" : ['./images/boneBox1_3.png'],
         "category": "Skulls",
@@ -782,8 +782,8 @@ const points = [
         "yPos": -7.3
     },
     {
-        "name": "Skull",
-        "description": "Near the radioactive capsule.",
+        "name": "Череп",
+        "description": "Возле Радиоактивной капсулы..",
         "related_images" : ['./images/skull5_1.png'],
         "category": "Skulls",
         "icon": "./icons/skull.png",
@@ -791,15 +791,15 @@ const points = [
         "yPos": 302.76
     },
     {
-        "name": "Skull",
-        "description": "Inside the cave entrance.",
+        "name": "Череп",
+        "description": "В пещере..",
         "related_images" : ['./images/skull6_1.png'],
         "category": "Skulls",
         "icon": "./icons/skull.png",
         "xPos": -655.93,
         "yPos": -600.3
     },
-    // Halloween Pumpkins
+    // Halloween Pumpkins WIP
     {
         "name": "Pumpkin",
         "description": "Exclusive to the Halloween gamemode.<br><br>On top of the incinerator.",
@@ -937,8 +937,8 @@ const points = [
         "yPos": 20.95
     },
     {
-        "name": "Shovel",
-        "description": "Inside the building. You can break the door by hitting it with a crowbar, shovel, etc.",
+        "name": "Лопата",
+        "description": "Внутри будки охранника. Дверь будки можно сломать. Например, камнем или ломом.",
         "related_images" : [],
         "category": "",
         "icon": "./icons/shovel.png",
@@ -946,7 +946,7 @@ const points = [
         "yPos": 702.32
     },
     {
-        "name": "Shovel",
+        "name": "Лопата",
         "description": "Found up in TR_2.",
         "related_images" : ['./images/shovel4_1.png'],
         "category": "",
@@ -955,7 +955,7 @@ const points = [
         "yPos": 237.09
     },
     {
-        "name": "Watering Can",
+        "name": "Лейка",
         "description": "Found on a shelf in TR_1.",
         "related_images" : ['./images/wateringCan1_1.png'],
         "category": "",
@@ -964,7 +964,7 @@ const points = [
         "yPos": 197.67
     },
     {
-        "name": "Watering Can",
+        "name": "Лейка",
         "description": "Found up in TR_2.",
         "related_images" : ['./images/wateringCan2_1.png'],
         "category": "",
@@ -973,7 +973,7 @@ const points = [
         "yPos": 236.71
     },
     {
-        "name": "Watering Can",
+        "name": "Лейка",
         "description": "Found in the corner of TR_3.",
         "related_images" : ['./images/wateringCan3_1.png'],
         "category": "",
@@ -982,8 +982,8 @@ const points = [
         "yPos": -477.54
     },
     {
-        "name": "Axe",
-        "description": "Inside the abandoned shack under the bed.",
+        "name": "Топор",
+        "description": "В Хижине охотника, под кроватью.",
         "related_images" : ['./images/axe1_1.png'],
         "category": "",
         "icon": "./icons/axe.png",
@@ -991,7 +991,7 @@ const points = [
         "yPos": 22.5
     },
     {
-        "name": "Cacti",
+        "name": "Какти",
         "description": "Dug up next to the light post",
         "related_images" : ['./images/cacti1_1.png'],
         "category": "",
@@ -1018,7 +1018,7 @@ const points = [
         "yPos": 23.5
     },
     {
-        "name": "Box of bones",
+        "name": "Коробка с костями",
         "description": "Can be dug up next to the boulder in the middle of the grassy circle. An old wooden box containing a some bones and a skull. The box is breakable.",
         "related_images" : ['./images/boneBox1_1.png', './images/boneBox1_2.png', './images/boneBox1_3.png'],
         "category": "",
@@ -1027,7 +1027,7 @@ const points = [
         "yPos": -7.3
     },
     {
-        "name": "Radioactive Capsule",
+        "name": "Радиоактивная капсула",
         "description": "Located in the middle of a dirt patch with a skeleton reaching out placed next to it. Needs a shovel to get it out of the ground",
         "related_images" : ['./images/radioactiveCapsule1_1.png', './images/radioactiveCapsule1_2.png', './images/radioactiveCapsule1_3.png'],
         "category": "",
@@ -1036,7 +1036,7 @@ const points = [
         "yPos": 303.3
     },
     {
-        "name": "EMF Detector",
+        "name": "Детектор ЕМП",
         "description": "Buried close to a floodlight. Toggle on with right click while holding. 5 lights on it indicate how strong the emf is. Example locations for strong EMF is the basement, stonehenge, and the old shack.",
         "related_images" : ['./images/emfDetector1_1.png'],
         "category": "",
@@ -1045,7 +1045,7 @@ const points = [
         "yPos": -33.8
     },
     {
-        "name": "Pickaxe",
+        "name": "Кирка",
         "description": "Stuck in the ground next to a underwater root. You may need scuba gear to reach it.",
         "related_images" : [],
         "category": "",
@@ -1054,7 +1054,7 @@ const points = [
         "yPos": -384.3
     },
     {
-        "name": "Candle Holder",
+        "name": "Свеча",
         "description": "An old style candle holder you can dig up from inside a log. It is a Youtuber easter egg created in reference to the Youtuber <a href=\"https://www.youtube.com/channel/UCnCmb1vpv90EeSX5g7K4UYQ\" target=\"_blank\" rel=\"noopener noreferrer\">The Librarian</a>. You can light it with a lighter!",
         "related_images" : [],
         "category": "",
@@ -1063,7 +1063,7 @@ const points = [
         "yPos": -461
     },
     {
-        "name": "Argemia Mug",
+        "name": "Кружка с Аргемией",
         "description": "Located on top of the power pole, a basic white mug with a portrait of Argemia Armuntela on the side. The item is fixed so only player interaction can move it. You can use a hook to climb the pole.",
         "related_images" : [],
         "category": "",
@@ -1072,7 +1072,7 @@ const points = [
         "yPos": -304.58
     },
     {
-        "name": "Fishing Supplies",
+        "name": "Рыболовные снасти",
         "description": "Needs to be dug up with a shovel.<br>Located to the right of the wind turbine, an old box containing some fishing rod parts and some bait. Put all the fishing rod parts together on a workbench to create a fishing rod.",
         "related_images" : ['./images/fishingSupplies1_1.png'],
         "category": "",
@@ -1081,7 +1081,7 @@ const points = [
         "yPos": -460.6
     },
     {
-        "name": "Bike Helmet",
+        "name": "Мотошлем",
         "description": "The bike helmet protects your head, which can decrease your damage taken from impacts. You can reach it by climbing up or grappling down the cliff using a hook, or by very carefully sliding down.",
         "related_images" : ['./images/helmet1_1.png', './images/helmet1_2.png', './images/helmet1_3.png'],
         "category": "",
@@ -1090,7 +1090,7 @@ const points = [
         "yPos": 630
     },
     {
-        "name": "Hiking Boots",
+        "name": "Походные сапоги",
         "description": "Found in the corner of TR_3.<br>Wearing them allows you to walk up steeper surfaces without slipping and allows you to fall farther distances without collapsing or taking damage.",
         "related_images" : ['./images/hikingBoots1_1.png'],
         "category": "",
@@ -1190,12 +1190,21 @@ const points = [
         "yPos": -479.11
     },
     {
-        "name": "Safe",
+        "name": "Сейф",
         "description": "Found at the bottom of the lake, it's quite hard to get it out of the water.<br><br>Cracking into the safe is easy.<br>First, grab onto the safe's door and start turning your scroll wheel in a direction. Go slowly as your mouse wheel can go. As you spin the dial, you will hear clicking. Once you hear a click that is very slightly different, reverse the direction you are scrolling and start spinning in the opposite direction. Continue going back and forth, reversing your scrolling until the safe unlocks.<br><br>Inside is an Omega AI Module.",
         "related_images" : [],
         "category": "Kerfur Parts",
         "icon": "./icons/safe.png",
         "xPos": 404.8,
+        "yPos": -406
+    },
+    {
+        "name": "Тестовая точка",
+        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
+        "related_images" : [],
+        "category": "Kerfur Parts",
+        "icon": "./icons/safe.png",
+        "xPos": 400,
         "yPos": -406
     }
 ]
