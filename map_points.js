@@ -101,10 +101,10 @@ points.forEach((data, pointindex) => {
         visibilitybutton.classList.add('unselectable')
         if (!categoryvisible) {
             visibilitybutton.classList.add('gray')
-            visibilitybutton.innerText = '[H]'
+            visibilitybutton.innerText = '[Выкл.]'
             visibilitybutton.dataset.visible = 0
         } else {
-            visibilitybutton.innerText = '[S]'
+            visibilitybutton.innerText = '[Вкл.] '
             visibilitybutton.dataset.visible = 1
         }
         visibilitybutton.addEventListener('click', toggleCategoryButton)
