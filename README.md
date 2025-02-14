@@ -1,11 +1,12 @@
-# Voices of the Void Map
-A map for the game [Voices of the Void](https://mrdrnose.itch.io/votv) by [MrDrNose](https://mrdrnose.itch.io/)
+# Примечание
+Автором оригинального кода и информации является [Questwalker](https://github.com/Questwalker/), оригинальный репозиторий находится [здесь](https://github.com/Questwalker/votv-map)
 
-This project is a work of my own and is unofficial.
+# Карта Voices of the Void
+Карта игры [Voices of the Void](https://mrdrnose.itch.io/votv) от [MrDrNose](https://mrdrnose.itch.io/)
 
-Check me out / Contact me at:\
+Ссылки автора оригинального кода:
 Discord? questwalker\
 Email? [QuestwalkerKO@gmail.com](mailto:questwalkerko@gmail.com)\
 Youtube? [Questwalker](https://www.youtube.com/channel/UCTA45ILB7_G_AlH1RfcJWxg)
 
-[Check out the changelog here.](https://questwalker.github.io/votv-map/changelog)
+[Чейнджлог](https://static2949.github.io/votv-map-ru/changelog)(изменения оригинального репозитория упомянуты на английском, изменения данного форка упомянуты на русском)
