@@ -531,7 +531,7 @@ const points = [
         "name": "Бургер #3",
         "description": "On top of the toilet.",
         "related_images" : ["./images/burger3_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -12,
         "yPos": -0.1
@@ -540,7 +540,7 @@ const points = [
         "name": "Бургер #4",
         "description": "On the radio tower of top of one of the antennas. You can climb the pole with a hook to reach it.",
         "related_images" : ["./images/burger4_1.png", "./images/burger4_2.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 21.7,
         "yPos": -29.5
@@ -549,7 +549,7 @@ const points = [
         "name": "Бургер #5",
         "description": "Under the basement stairs.",
         "related_images" : ["./images/burger5_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -20.4,
         "yPos": 27.1
@@ -558,7 +558,7 @@ const points = [
         "name": "Бургер #6",
         "description": "On the roof, on top of the air conditioning system.",
         "related_images" : ["./images/burger6_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -2.6,
         "yPos": 27.3
@@ -567,7 +567,7 @@ const points = [
         "name": "Бургер #7",
         "description": "On top of the Radome.",
         "related_images" : ["./images/burger7_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -10.8,
         "yPos": 6.4
@@ -576,7 +576,7 @@ const points = [
         "name": "Бургер #8",
         "description": "On the roof of the garage in a corner.",
         "related_images" : ["./images/burger8_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -14.8,
         "yPos": 9.7
@@ -585,7 +585,7 @@ const points = [
         "name": "Бургер #9",
         "description": "On top of one of the stone arches.",
         "related_images" : ['./images/burger9_1.png'],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 216,
         "yPos": 541.1
@@ -594,7 +594,7 @@ const points = [
         "name": "Бургер #10",
         "description": "Under the bridge near the base.",
         "related_images" : ["./images/burger10_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -62.9,
         "yPos": 12
@@ -603,7 +603,7 @@ const points = [
         "name": "Бургер #11",
         "description": "Inside the large log under some rocks.",
         "related_images" : ['./images/burger11_1.png', './images/burger11_2.png'],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 349.1,
         "yPos": -344.5
@@ -612,7 +612,7 @@ const points = [
         "name": "Бургер #12",
         "description": "On top of some supply crates in the poly testing area.",
         "related_images" : ["./images/burger12_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 518.5,
         "yPos": -213.4
@@ -621,7 +621,7 @@ const points = [
         "name": "Бургер #13",
         "description": "Inside the old shack, in a corner under a table.",
         "related_images" : ["./images/burger13_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 408.95,
         "yPos": 24.1
@@ -630,7 +630,7 @@ const points = [
         "name": "Бургер #14",
         "description": "Behind transformer 2, on the roof. Crammed between the wall and some machinery.",
         "related_images" : ["./images/burger14_1.png", "./images/burger14_2.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -553.4,
         "yPos": 236.6
@@ -639,7 +639,7 @@ const points = [
         "name": "Бургер #15",
         "description": "Located on the metal walkways that go around Juliett.",
         "related_images" : ["./images/burger15_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -100.2,
         "yPos": 203.5
@@ -648,7 +648,7 @@ const points = [
         "name": "Бургер #16",
         "description": "On the ground under the generator.",
         "related_images" : ["./images/burger16_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -623,
         "yPos": -25.7
@@ -657,7 +657,7 @@ const points = [
         "name": "Бургер #17",
         "description": "On the ground outside of the cave.",
         "related_images" : ["./images/burger17_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -651.1,
         "yPos": -587.6
@@ -666,7 +666,7 @@ const points = [
         "name": "Бургер #18",
         "description": "Inside the cave, in the middle of a pile of mushrooms.",
         "related_images" : ["./images/burger18_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -683.7,
         "yPos": -581.8
@@ -675,7 +675,7 @@ const points = [
         "name": "Бургер #19",
         "description": "On the ground next to the <i>Unknown Rozital Technology</i>.",
         "related_images" : ["./images/burger19_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 639.2,
         "yPos": 44
@@ -684,7 +684,7 @@ const points = [
         "name": "Бургер #20",
         "description": "Needs to be dug up with a shovel. A metal detector can help in finding it.",
         "related_images" : ["./images/burger20_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 157,
         "yPos": -584.7
@@ -693,7 +693,7 @@ const points = [
         "name": "Бургер #21",
         "description": "In a group of rocks behind Wiskey.",
         "related_images" : ["./images/burger21_1.png"],
-        "category": "Бургеры,
+        "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 18.14,
         "yPos": 529.37
