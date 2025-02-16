@@ -42,13 +42,13 @@ function setCategoryVisibility(categoryname, setting=false, button=undefined) {
     if (setting) {
         layer.addTo(map)
         button.classList.remove('gray')
-        button.innerText = '[S]'
+        button.innerText = '[Вкл.] '
         button.dataset.visible = 1
         settings[`${categoryname}_visible`] = true
     } else {
         map.removeLayer(layer)
         button.classList.add('gray')
-        button.innerText = '[H]'
+        button.innerText = '[Выкл.]'
         button.dataset.visible = 0
         settings[`${categoryname}_visible`] = false
     }
