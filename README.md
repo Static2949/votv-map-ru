@@ -3,6 +3,7 @@
 
 # Карта Voices of the Void
 Карта игры [Voices of the Void](https://mrdrnose.itch.io/votv) от [MrDrNose](https://mrdrnose.itch.io/)
+# [Открыть карту](https://static2949.github.io/votv-map-ru/)
 
 # Изменения
 Карта переведена на русский. Также добавлены различные другие предметы и локации.
