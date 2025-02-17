@@ -5,9 +5,6 @@ function mapClickEvent() {
     information_text.innerHTML = 'Нажмите на одну из точек карты чтобы увидеть больше информации о том или ином предмете или локации. Для некоторых точек имеются вспомогательные картинки, которые помогут вам понять, о чём <i>именно</i> идёт речь и как оно выгдядит.<br><br>Используйте вкладку <i>Точки</i> чтобы показать или скрывать те или иные категории.'
     information_images.replaceChildren()
 }
-function mapClickEvent111() {
-    information_header.innerHTML = '11111111'
-}
 
 function pointClickEvent() {
     // Update information text when point is clicked, and focus on info tab

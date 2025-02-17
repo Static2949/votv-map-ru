@@ -1,4 +1,383 @@
 const points = [
+    //готовое
+    {
+        "name": "Походные сапоги",
+        "description": "В офисном помещении Трансформатора 3, закидано мусором поверх.<br><br>Позволяет ходить по более крутым поверхностям, частично спасает от урона при падении.",
+        "related_images" : ['./images/hikingBoots1_1.png'],
+        "category": "Экипировка",
+        "icon": "./icons/hiking_boots.png",
+        "xPos": -402.4,
+        "yPos": -478.67
+    },
+    {
+        "name": "Плита Воздуха",
+        "description": "Подсказывает, как получить Руну Воздуха. Стоит на электростолбе у Трансформатора 1, можно добраться с помощью крюка.",
+        "related_images" : ['./images/ru/plate_air1.jpg', './images/ru/plate_air2.jpg'],
+        "category": "Рунные Плиты",
+        "icon": "./icons/ru/slab.png",
+        "xPos": 389,
+        "yPos": 197
+    },
+    {
+        "name": "Куча мяса",
+        "description": "Используется для получение плюши Эйри. Собирать мусорным пакетом.",
+        "related_images" : ['./images/ru/meatpile.jpg'],
+        "category": "",
+        "icon": "./icons/ru/meat.png",
+        "xPos": -548.5,
+        "yPos": 229.5
+    },
+    {
+        "name": "Галстук-бабочки",
+        "description": "Две штуки лежат поверх ящиков в огорожденной зоне тестовых деревьев.",
+        "related_images" : ['./images/ru/bowties1.jpg', './images/ru/bowties2.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/ru/bowtie.png",
+        "xPos": 518.8,
+        "yPos": -212.73
+    },
+    {
+        "name": "Очки",
+        "description": "Две пары очков, которые нельзя надеть на себя, но можно надеть на Керфур-О.",
+        "related_images" : ['./images/ru/glasses.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/ru/glasses.png",
+        "xPos": 62.23,
+        "yPos": 625.34
+    },
+    {
+        "name": "Счётчик Гейгера",
+        "description": "Предупреждает о радиоактивных местах.",
+        "related_images" : ['./images/ru/rads.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/rads.png",
+        "xPos": 62.99,
+        "yPos": 628.3
+    },
+    {
+        "name": "Куртки",
+        "description": "Две куртки, лежат под столом. На себя надеть нельзя, но можно надеть на Керфур-О.",
+        "related_images" : ['./images/ru/jackets.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/ru/jacket.png",
+        "xPos": -622.54,
+        "yPos": -30.01
+    },
+    {
+        "name": "Бейджики",
+        "description": "Два бейджика, лежат на столе. На себя надеть нельзя, но можно надеть на Керфур-О.",
+        "related_images" : ['./images/ru/badges.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/ru/badge.png",
+        "xPos": -622.54,
+        "yPos": -28
+    },
+    {
+        "name": "Ремкомплект",
+        "description": "",
+        "related_images" : ['./images/ru/toolbox_hole.jpg'],
+        "category": "Ремкомплекты",
+        "icon": "./icons/ru/toolbox.png",
+        "xPos": -620.45,
+        "yPos": -31.61
+    },
+    {
+        "name": "Ремкомплект",
+        "description": "Внутри помещения Трансформатора 1.",
+        "related_images" : ['./images/ru/toolbox_tr1.jpg'],
+        "category": "Ремкомплекты",
+        "icon": "./icons/ru/toolbox.png",
+        "xPos": 399.31,
+        "yPos": 198.55
+    },
+    {
+        "name": "Ремкомплект",
+        "description": "В гараже, за деревянными палеттами.",
+        "related_images" : ['./images/ru/toolbox_garage.jpg'],
+        "category": "Ремкомплекты",
+        "icon": "./icons/ru/toolbox.png",
+        "xPos": -15.85,
+        "yPos": 7.86
+    },
+    {
+        "name": "Ремкомплект",
+        "description": "",
+        "related_images" : ['./images/ru/toolbox_bunker.jpg'],
+        "category": "Ремкомплекты",
+        "icon": "./icons/ru/toolbox.png",
+        "xPos": 60.9,
+        "yPos": 624.3
+    },
+    {
+        "name": "Мотошлем",
+        "description": "Мотошлем уменьшает количество урона головы, что также может снижать количество урона получаемое от падений. Можно попытаться получить шлем аккуратно спускаясь по скале и камням но, лучше, всё-таки использовать крюк.",
+        "related_images" : ['./images/helmet1_1.png', './images/helmet1_2.png', './images/helmet1_3.png', './images/helmet_close.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/helmet.png",
+        "xPos": -50.6,
+        "yPos": 630
+    },
+    {
+        "name": "Бочка с ИРП",
+        "description": "Внутри воткнутого в землю огромного бревна у реки. Внутри бочки – 50 ИРП.",
+        "related_images" : ['./images/ru/barrel1.jpg', './images/ru/barrel2.jpg'],
+        "category": "",
+        "icon": "./icons/barrel.png",
+        "xPos": 233.36,
+        "yPos": -329.2
+    },
+    {
+        "name": "Тест деревьев",
+        "description": "Упоминание тестовых деревьев. Если посмотрите на деревья вокруг себя - заметите, что такие находятся только на данной ограждённой территории.",
+        "related_images" : ['./images/ru/notes/wiptrees.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 518,
+        "yPos": -211
+    },
+    {
+        "name": "Музыка в лесу",
+        "description": "",
+        "related_images" : ['./images/ru/notes/music.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 388,
+        "yPos": 531
+    },
+    {
+        "name": "Записка рыбака",
+        "description": "Перевод записки:<br><br>У меня нет ни семьи, ни друзей, то есть никого, кто был бы готов принять участие в такой жизни, то есть, кто бы это ни был. Я передаю вам право собственности на мое ценное оборудование. Вы можете найти его на 175:-460. удачи. <br>Людвиг Хандшух. ",
+        "related_images" : ['./images/ru/notes/fishman.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 58,
+         "yPos": 627
+    },
+    {
+        "name": "Прогресс в изучении Дыры",
+        "description": "",
+        "related_images" : ['./images/ru/notes/hole_progress.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": -620,
+         "yPos": -29
+    },
+    {
+        "name": "Крипта",
+        "description": "Записка находится под кучей мусора.",
+        "related_images" : ['./images/ru/notes/crypto.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": -394,
+        "yPos": -474
+    },
+    {
+        "name": "Радиоактивная капсула",
+        "description": "<div style=\"color: red;\">НЕ СТОЙТЕ У НЕЁ, ОНА ДЕЙСТВИТЕЛЬНО РАДИОАКТИВНА!<br><br>ДЛЯ БЕЗОПАСНОГО ИЗВЛЕЧЕНИЯ И ПЕРЕНОСКИ ПОТРЕБУЕТСЯ ПРОТИВОРАДИОЦИОННЫЙ КОСТЮМ!</div>Торчит из земли возле скелета. Для выкапывания потребуется лопата.",
+        "related_images" : ['./images/radioactiveCapsule1_1.png', './images/radioactiveCapsule1_2.png', './images/radioactiveCapsule1_3.png'],
+        "category": "",
+        "icon": "./icons/radioactive_canister.png",
+        "xPos": -569.5,
+        "yPos": 303.3
+    },
+    {
+        "name": "Детектор ЕМП",
+        "description": "Закопана возле упавшего фонаря. Помогает находить аномалии. Сигналы детектора усиливаются, например, в подвале Базы, у Стоунхеджа, в Хижине Охотника.",
+        "related_images" : ['./images/emfDetector1_1.png'],
+        "category": "Инструменты",
+        "icon": "./icons/emf_detector.png",
+        "xPos": -623,
+        "yPos": -33.8
+    },
+    {
+        "name": "Кирка",
+        "description": "Застряла в земле под водой, возле ветки. Желательно иметь при себе подводную маску.",
+        "related_images" : ['./images/ru/pickaxe.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/pickaxe.png",
+        "xPos": 390.8,
+        "yPos": -383.5
+    },
+    {
+        "name": "Свеча",
+        "description": "Античный подсвечник, который можно выкопать, находясь в бревне, под водой. Пасхалка в честь ютубера <a href=\"https://www.youtube.com/channel/UCnCmb1vpv90EeSX5g7K4UYQ\" target=\"_blank\" rel=\"noopener noreferrer\">The Librarian</a>. Для зажжения используйте зажигалку.",
+        "related_images" : ['./images/ru/candle1.jpg', './images/ru/candle2.jpg', './images/ru/candle3.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/candle.png",
+        "xPos": 378.5,
+        "yPos": -461
+    },
+    {
+        "name": "Кружка с Аргемией",
+        "description": "Стоит на самом верху электрического столба. Сбить её не получится - поэтому, крюк в дело и вжух-вжух-вжух.<br><br>Декоративный предмет, налить в неё кофе не выйдет<br> :(",
+        "related_images" : ['./images/ru/argemcup.jpg'],
+        "category": "",
+        "icon": "./icons/argemug.png",
+        "xPos": -62.2,
+        "yPos": -304.58
+    },
+    {
+        "name": "Рыболовные снасти",
+        "description": "Закопаны, для раскопки нужна лопата. Для нахождения точного расположения может помочь металлоискатель.<br>Находится справа от воздушной турбины. Внутри коробки - части удочки и снасти. Соедините все части удочки на верстаке, и можете рыбачить.",
+        "related_images" : ['./images/fishingSupplies1_1.png', './images/ru/fishsupplies.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/fishermans_box.png",
+        "xPos": 175.8,
+        "yPos": -460.6
+    },
+    {
+        "name": "Чертёж - Радиоактивная капсула",
+        "description": "Чертёж для создания радиоактивной капсулы.",
+        "related_images" : ['./images/ru/blueprint_rads.jpg'],
+        "category": "",
+        "icon": "./icons/ru/blueprint.png",
+        "xPos": 62.75,
+        "yPos": 627.19
+    },
+    {
+        "name": "Лампа",
+        "description": "Заправляется топливом из канистр.",
+        "related_images" : ['./images/ru/lamp.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/lamp.png",
+        "xPos": -620.89,
+        "yPos": -31.15
+    },
+    {
+        "name": "Сварочная маска",
+        "description": "За ящиками.",
+        "related_images" : ['./images/ru/welder_hole.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/ru/weldingmask.png",
+        "xPos": -617.48,
+        "yPos": -22.53
+    },
+    {
+        "name": "Сварочная маска",
+        "description": "",
+        "related_images" : ['./images/ru/welder_bunker.jpg'],
+        "category": "Экипировка",
+        "icon": "./icons/ru/weldingmask.png",
+        "xPos": 61.9,
+        "yPos": 622.97
+    },
+    {
+        "name": "Свинцовая труба",
+        "description": "Лежит в вентиляции. Ей можно бить.",
+        "related_images" : ['./images/ru/pipe.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/pipe.png",
+        "xPos": -5.65,
+        "yPos": 18.3
+    },
+    {
+        "name": "Аптечка",
+        "description": "В административной комнате Базы. Мгновенно вылечивает весь урон (кроме радиоактивного отравления). Одноразовая.",
+        "related_images" : ['./images/ru/medkit.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/medkit.png",
+        "xPos": -10.13,
+        "yPos": 0.03
+    },
+    {
+        "name": "Молотов",
+        "description": "Лежит в вентиляции. Чтобы пользоваться, нужно включить \"Экстримальную боёвку\" в Эксперементальной вкладке настроек игры.",
+        "related_images" : ['./images/ru/molotov.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/molotov.png",
+        "xPos": -8,
+        "yPos": 17
+    },
+    {
+        "name": "Газосварочный аппарат",
+        "description": "Лежит на бочке. Используется при создании Радиоактивной Капсулы.",
+        "related_images" : ['./images/ru/gastool.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/gastool.png",
+        "xPos": -620.5,
+        "yPos": -23
+    },
+    {
+        "name": "Табличка \"Не работает\"",
+        "description": "Не вешается на стену, придётся прибивать гвоздями.",
+        "related_images" : ['./images/ru/outoforder1.jpg', './images/ru/outoforder2.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 56.36,
+        "yPos": 622.8
+    },
+    {
+        "name": "Постер \"Hang in there!\"",
+        "description": "Висит в администраторской комнате Базы.",
+        "related_images" : ['./images/ru/poster_kitty.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/posters.png",
+        "xPos": -9.15,
+        "yPos": 2
+    },
+    {
+        "name": "Постер карты",
+        "description": "В главной комнате Базы.",
+        "related_images" : ['./images/ru/poster_map.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/posters.png",
+        "xPos": -5.18,
+        "yPos": 11.7
+    },
+    {
+        "name": "Постер о кофе",
+        "description": "Висит в столовой Базы.",
+        "related_images" : ['./images/ru/poster_coffee.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/posters.png",
+        "xPos": -17.5,
+        "yPos": 16.2
+    },
+    {
+        "name": "Постер о чистке рук",
+        "description": "Висит в туалете Базы.",
+        "related_images" : ['./images/ru/poster_filth.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/posters.png",
+        "xPos": -11.2,
+        "yPos": 1.8
+    },
+    {
+        "name": "Постер \"Я верю\"",
+        "description": "Висит в спальне-кухне Базы.<br><br>Является отсылкой на сериал \"Секретные Материалы\" - замазаны буквы \"want to\", вместо НЛО - Стрела Ариралов.",
+        "related_images" : ['./images/ru/poster_believe.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/posters.png",
+        "xPos": -7,
+        "yPos": 10.25
+    },
+    {
+        "name": "Крафт молотова",
+        "description": "Три отдельные записки в Трансформаторе 1.",
+        "related_images" : ['./images/ru/notes/molotov1.jpg', './images/ru/notes/molotov2.jpg', './images/ru/notes/molotov3.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 390.5,
+        "yPos": 201.6
+    },
+    {
+        "name": "Крафт самодельной бомбы",
+        "description": "",
+        "related_images" : ['./images/ru/notes/pipebomb1.jpg', './images/ru/notes/pipebomb2.jpg', './images/ru/notes/pipebomb3.jpg', './images/ru/notes/pipebomb4.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 527.11,
+        "yPos": -699.18
+    },
+    {
+        "name": "Медицинские принадлежности",
+        "description": "Окровавленный столик, можно убрать в инвентарь. На нём также лежат ножницы и подставка для медицинских инструментов.",
+        "related_images" : ['./images/ru/medtable.jpg'],
+        "category": "",
+        "icon": "./icons/ru/medtable.png",
+        "xPos": -401.5,
+        "yPos": -482.4
+    },
     // Satellites
     {
         "name": "Bravo",
@@ -49,7 +428,7 @@ const points = [
         "name": "Golf",
         "description": "",
         "related_images" : [],
-        "category": "Satellite Dishes",
+        "category": "Радиотелескопы",
         "icon": "./icons/g.png",
         "xPos": 200,
         "yPos": 100
@@ -292,7 +671,7 @@ const points = [
     },
     {
         "name": "Металлическая Плитка #5",
-        "description": "Спрятана за ящиками у Дыры",
+        "description": "Спрятана за ящиками у Дыры.",
         "related_images" : ['./images/tile5_1.png', './images/tile5_2.png', './images/tile5_3.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
@@ -318,7 +697,7 @@ const points = [
         "yPos": 621
     },
     {
-        "name": "Metal Tile #8",
+        "name": "Металлическая Плитка #8",
         "description": "Лежит за стеной телескопа Uniform. Просто перелезьте через перила и пройдитесь по выступу.",
         "related_images" : ['./images/tile8_1.png', './images/tile8_2.png'],
         "category": "Металлические Плитки",
@@ -327,7 +706,7 @@ const points = [
         "yPos": -2.7
     },
     {
-        "name": "Metal Tile #9",
+        "name": "Металлическая Плитка #9",
         "description": "Да-да, всё верно, именно там. Нужно будет перелезть через основном забор карты и двигаться к стыку северного и восточного барьеров.",
         "related_images" : ['./images/tile9_1.png', './images/tile9_2.png', './images/tile9_3.png'],
         "category": "Металлические Плитки",
@@ -374,7 +753,7 @@ const points = [
     },
     {
         "name": "Розовая Аргемия",
-        "description": "Появляется после получения сигнала “Розовый Луч”.",
+        "description": "Появляется после получения сигнала <i>“Розовый Луч”</i>.",
         "related_images" : ['./images/magentaArgemia1_1.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/magenta_argemia.png",
@@ -429,7 +808,7 @@ const points = [
     // Points of interest
     {
         "name": "Прибор Розиталов",
-        "description": "Лежит между камней.",
+        "description": "Лежит между камней. Активируется при получении сигнала <i>“Розовый Луч”</i>",
         "related_images" : ['./images/rozitalTech1_1.png', './images/rozitalTech1_2.png', './images/rozitalTech1_3.png', './images/rozitalTech1_4.png'],
         "category": "Точки Интереса",
         "icon": "./icons/rozital.png",
@@ -438,7 +817,7 @@ const points = [
     },
     {
         "name": "Базальтовые столбы",
-        "description": "<div style=\"color: red;\">WARNING: THIS CAN RUIN YOUR SAVE</div><br>Can be found with the metal detector. Once dug up, it'll slowly grow out of the ground and start spreading. They will slowly spread in your direction. <u>The pillars have high durability, but they can be destroyed with a crowbar or shovel.</u>",
+        "description": "<div style=\"color: red;\">ВНИМАНИЕ: МОГУТ ИСПОРТИТЬ СОХРАНЕНИЕ</div><br>Можно найти с помощью металлодетектора.<br>После раскапывания, начнётся медленный процесс роста первого столба. После завершения роста первого, появится второй, и так они будут расти почти бесконечно, направляясь в сторону игрока.<br>Прекращают рост, если:<br>- Новый столб пытается расти в месте, где уже есть столб<br>- При достижении асфальтовой площадки у Базы.<br>У них большая прочность, но их можно ломать с помощью, например, лома.</u>",
         "related_images" : ['./images/basaltPillars1_1.png', './images/basaltPillars1_2.png'],
         "category": "",
         "icon": "./icons/basalt_pillar.png",
@@ -692,7 +1071,7 @@ const points = [
     {
         "name": "Бургер #21",
         "description": "Среди камней за Whiskey.",
-        "related_images" : ["./images/burger21_1.png"],
+        "related_images" : ["./images/ru/burger21_1.jpg", "./images/ru/burger21_2.jpg", "./images/ru/burger21_3.jpg"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 18.14,
@@ -747,7 +1126,7 @@ const points = [
     },
     {
         "name": "Череп",
-        "description": "Закопан под <i>Прибором Розиталов</i>.<br>Можно выкопать даже если Технология всё ещё на месте - если копнуть в определённом конкретном месте.",
+        "description": "Закопан под <i>Прибором Розиталов</i>.<br>Можно выкопать даже если Технология Розиталов всё ещё на месте - если копнуть в определённом конкретном месте.",
         "related_images" : ['./images/skull2_1.png', './images/skull2_2.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
@@ -812,7 +1191,7 @@ const points = [
     {
         "name": "Лопата",
         "description": "Стоит у стены возле Красного Куста.",
-        "related_images" : [],
+        "related_images" : ['./images/ru/shovel_hunter.jpg'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
         "xPos": 408.36,
@@ -908,93 +1287,12 @@ const points = [
         "xPos": 263.6,
         "yPos": -7.3
     },
-    {
-        "name": "Радиоактивная капсула",
-        "description": "<div style=\"color: red;\">НЕ СТОЙТЕ У НЕЁ, ОНА ДЕЙСТВИТЕЛЬНО РАДИОАКТИВНА!<br><br>ДЛЯ БЕЗОПАСНОГО ИЗВЛЕЧЕНИЯ И ПЕРЕНОСКИ ПОТРЕБУЕТСЯ ПРОТИВОРАДИОЦИОННЫЙ КОСТЮМ!</div>Торчит из земли возле скелета. Для выкапывания потребуется лопата.",
-        "related_images" : ['./images/radioactiveCapsule1_1.png', './images/radioactiveCapsule1_2.png', './images/radioactiveCapsule1_3.png'],
-        "category": "",
-        "icon": "./icons/radioactive_canister.png",
-        "xPos": -569.5,
-        "yPos": 303.3
-    },
-    {
-        "name": "Детектор ЕМП",
-        "description": "Закопана возле упавшего фонаря. Помогает находить аномалии. Сигналы детектора усиливаются, например, в подвале Базы, у Стоунхеджа, в Хижине Охотника.",
-        "related_images" : ['./images/emfDetector1_1.png'],
-        "category": "Инструменты",
-        "icon": "./icons/emf_detector.png",
-        "xPos": -623,
-        "yPos": -33.8
-    },
-    {
-        "name": "Кирка",
-        "description": "Застряла в земле под водой, возле ветки. Желательно иметь при себе подводную маску.",
-        "related_images" : ['./images/ru/pickaxe.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/pickaxe.png",
-        "xPos": 390.8,
-        "yPos": -383.5
-    },
-    {
-        "name": "Свеча",
-        "description": "Античный подсвечник, который можно выкопать, находясь в бревне, под водой. Пасхалка в честь ютубера <a href=\"https://www.youtube.com/channel/UCnCmb1vpv90EeSX5g7K4UYQ\" target=\"_blank\" rel=\"noopener noreferrer\">The Librarian</a>. Для зажжения используйте зажигалку.",
-        "related_images" : ['./images/ru/candle1.jpg', './images/ru/candle2.jpg', './images/ru/candle3.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/candle.png",
-        "xPos": 378.5,
-        "yPos": -461
-    },
-    {
-        "name": "Кружка с Аргемией",
-        "description": "Стоит на самом верху электрического столба. Сбить её не получится - поэтому, крюк в дело и вжух-вжух-вжух.<br><br>Декоративный предмет, налить в неё кофе не выйдет<br> :(",
-        "related_images" : ['./images/ru/argemcup.jpg'],
-        "category": "",
-        "icon": "./icons/argemug.png",
-        "xPos": -62.2,
-        "yPos": -304.58
-    },
-    {
-        "name": "Рыболовные снасти",
-        "description": "Закопаны, для раскопки нужна лопата.<br>Находится справа от воздушной турбины. Внутри коробки - части удочки и снасти. Соедините все части удочки на верстаке, и можете рыбачить.",
-        "related_images" : ['./images/fishingSupplies1_1.png', './images/ru/fishsupplies.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/fishermans_box.png",
-        "xPos": 175.8,
-        "yPos": -460.6
-    },
-    {
-        "name": "Мотошлем",
-        "description": "Мотошлем уменьшает количество урона головы, что также может снижать количество урона получаемое от падений. Можно попытаться получить шлем аккуратно спускаясь по скале и камням но, лучше, всё-таки использовать крюк.",
-        "related_images" : ['./images/helmet1_1.png', './images/helmet1_2.png', './images/helmet1_3.png', './images/helmet_close.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/helmet.png",
-        "xPos": -50.6,
-        "yPos": 630
-    },
-    {
-        "name": "Походные сапоги",
-        "description": "Found in the corner of TR_3.<br>Wearing them allows you to walk up steeper surfaces without slipping and allows you to fall farther distances without collapsing or taking damage.",
-        "related_images" : ['./images/hikingBoots1_1.png'],
-        "category": "Инструменты",
-        "icon": "./icons/hiking_boots.png",
-        "xPos": -402.4,
-        "yPos": -478.67
-    },
-    {
-        "name": "Бочка с ИРП",
-        "description": "Внутри воткнутого в землю огромного бревна у реки. Внутри бочки – 50 ИРП.",
-        "related_images" : ['./images/ru/barrel1.jpg', './images/ru/barrel2.jpg'],
-        "category": "",
-        "icon": "./icons/barrel.png",
-        "xPos": 233.36,
-        "yPos": -329.2
-    },
     // KerfurO parts
     {
         "name": "Knee Joints",
         "description": "Found in TR_1. In the office, inside a bucket.",
         "related_images" : ['./images/kneeJoints1_1.png'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
         "xPos": 390.47,
         "yPos": 198.27
@@ -1003,7 +1301,7 @@ const points = [
         "name": "Knee Joints",
         "description": "Found in TR_2. In the office, on a box under a workbench.",
         "related_images" : ['./images/kneeJoints2_1.png'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
         "xPos": -550.22,
         "yPos": 235.5
@@ -1012,7 +1310,7 @@ const points = [
         "name": "Knee Joints",
         "description": "Found in TR_3. In the office corner on the shelf.",
         "related_images" : ['./images/kneeJoints3_1.png'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
         "xPos": -400.55,
         "yPos": -477.15
@@ -1021,7 +1319,7 @@ const points = [
         "name": "Закопаные части Керфура",
         "description": "Contains two ball joints.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
         "xPos": -541.07,
         "yPos": -475.35
@@ -1030,7 +1328,7 @@ const points = [
         "name": "Закопаные части Керфура",
         "description": "Contains two ball joints.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
         "xPos": -529.78,
         "yPos": -462.75
@@ -1039,7 +1337,7 @@ const points = [
         "name": "Закопаные части Керфура",
         "description": "Contains two ball joints.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
         "xPos": -532.58,
         "yPos": -481.11
@@ -1048,7 +1346,7 @@ const points = [
         "name": "Закопаные части Керфура",
         "description": "Contains two ball joints.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
         "xPos": -524.08,
         "yPos": -471.09
@@ -1057,7 +1355,7 @@ const points = [
         "name": "Закопаные части Керфура",
         "description": "Contains two ball joints.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
         "xPos": -531.98,
         "yPos": -472.44
@@ -1066,7 +1364,7 @@ const points = [
         "name": "Закопаные части Керфура",
         "description": "Contains two ball joints.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
         "xPos": -524.14,
         "yPos": -479.11
@@ -1075,7 +1373,7 @@ const points = [
         "name": "Сейф",
         "description": "Находится на дне озера. Чтобы достать - иметь при себе подводную маску.<br><br>Открывается, как и настоящие сейфы.<br><br>Взломать сейф - легко.<br>Сначала, наведите курсор на дверь сейфа. Начните медленно поворачивать колёсико мыши в каком-нибудь направлении. Когда услышите щелчёк, который не похож на остальные - начинайте крутить в другую сторону. После нескольких таких успешных щелчков, дверь сейфа откроется.<br><br>Внутри лежит Омега ИИ Модуль, который используется для создания Керфур-О.",
         "related_images" : ['./images/ru/safe.jpg'],
-        "category": "Части Керфура",
+        "category": "Части Керфур-О",
         "icon": "./icons/safe.png",
         "xPos": 404.8,
         "yPos": -406
@@ -1086,20 +1384,20 @@ const points = [
     {
         "name": "Keljoy",
         "description": "Плюшевый Келджой, лежит в чемодане с которым приехал игрок.",
-        "related_images" : [],
+        "related_images" : ['./images/ru/plush_keljoy1.jpg', './images/ru/plush_keljoy2.jpg'],
         "category": "Другие плюши",
-        "icon": "./icons/ru/.png",
+        "icon": "./icons/ru/plush_keljoy.png",
         "xPos": -375.11,
         "yPos": 699.58
     },
     {
         "name": "Эйри",
-        "description": "Для получение потребуются лопата, мусорный пакет и куча мяса (не кусок плоти!).<br>Положить кучу мяса в мусорный пакет.<br>Закопать пакет возле граффити \"Erie Zone\".<br>Находиться там в полночь.",
+        "description": "Для получение потребуются лопата, мусорный пакет и куча мяса (лежит возле Трансформатора 2).<br>Положить кучу мяса в мусорный пакет.<br>Закопать пакет возле граффити \"Erie Zone\".<br>Находиться там в полночь.",
         "related_images" : ['./images/ru/erie1.jpg', './images/ru/erie2.jpg', './images/ru/erie3.jpg', './images/ru/erie4.jpg', './images/ru/erie5.jpg'],
         "category": "Другие плюши",
         "icon": "./icons/ru/plush_erie.png",
-        "xPos": 1111111111,
-        "yPos": 1111111111
+        "xPos": 10.9,
+        "yPos": -511.7
     },
     {
         "name": "Ягнёнок",
@@ -1120,17 +1418,8 @@ const points = [
         "yPos": 1111111111
     },
     {
-        "name": "Плита Воздуха",
-        "description": "Стоит на электростолбе, можно добраться с помощью крюка.",
-        "related_images" : ['./images/ru/plate_air1.jpg', './images/ru/plate_air2.jpg'],
-        "category": "Рунные Плиты",
-        "icon": "./icons/ru/slab.png",
-        "xPos": 389,
-        "yPos": 197
-    },
-    {
         "name": "Плита Огня",
-        "description": "Находится в локации Ритуального Алтаря, закопана прямо за ритуальным столом, нужна лопата.",
+        "description": "Подсказывает, как получить Руну Огня. Находится в локации Ритуального Алтаря, закопана прямо за ритуальным столом, нужна лопата.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Рунные Плиты",
         "icon": "./icons/ru/slab.png",
@@ -1139,7 +1428,7 @@ const points = [
     },
     {
         "name": "Плита Земли",
-        "description": "Закопана в ограждённой локации с тестовыми деревьями. Закопана, нужна лопата.",
+        "description": "Подсказывает, как получить Руну Земли. Закопана в ограждённой локации с тестовыми деревьями, нужна лопата.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Рунные Плиты",
         "icon": "./icons/ru/slab.png",
@@ -1148,7 +1437,7 @@ const points = [
     },
     {
         "name": "Плита Воды",
-        "description": "Закопана на дне озера, откапывать лопатой.",
+        "description": "Подсказывает, как получить Руну Воды. Закопана на дне озера, откапывать лопатой.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Рунные Плиты",
         "icon": "./icons/ru/slab.png",
@@ -1170,12 +1459,12 @@ const points = [
         "related_images" : ['./images/ru/tinycan1.jpg', './images/ru/tinycan2.jpg'],
         "category": "",
         "icon": "./icons/ru/gastiny.png",
-        "xPos": 1111111111,
-        "yPos": 1111111111
+        "xPos": -15.1,
+        "yPos": 12.3
     },
     {
         "name": "Пароль от входной двери",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
+        "description": "",
         "related_images" : ['./images/ru/notes/base1111.jpg'],
         "category": "Записки",
         "icon": "./icons/ru/note.png",
@@ -1184,7 +1473,7 @@ const points = [
     },
     {
         "name": "Пароль от комнаты администратора",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
+        "description": "Лежит на ящиках в гараже. Комната администратора - переключатели света в коридоре Базы, аптечка, п с котиком.",
         "related_images" : ['./images/ru/notes/base1234.jpg'],
         "category": "Записки",
         "icon": "./icons/ru/note.png",
@@ -1193,7 +1482,7 @@ const points = [
     },
     {
         "name": "Предупреждение бункера",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
+        "description": "",
         "related_images" : ['./images/ru/notes/bunker.jpg'],
         "category": "Записки",
         "icon": "./icons/ru/note.png",
@@ -1221,7 +1510,7 @@ const points = [
     {
         "name": "Фигура",
         "description": "Записка лежит в вентиляции возле стула, под кучей ИРП.",
-        "related_images" : ['./images/ru/notes/note_figure.jpg'],
+        "related_images" : ['./images/ru/notes/vent.jpg', './images/ru/note_figure.jpg'],
         "category": "Записки",
         "icon": "./icons/ru/note.png",
         "xPos": -1,
@@ -1236,24 +1525,7 @@ const points = [
         "xPos": 651,
         "yPos": -641
     },
-    {
-        "name": "Тест деревьев",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
-        "related_images" : ['./images/ru/notes/wiptrees.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 518,
-        "yPos": -211
-    },
-    {
-        "name": "Музыка в лесу",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
-        "related_images" : ['./images/ru/notes/music.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 388,
-        "yPos": 531
-    },
+
     {
         "name": "Дьявольщина",
         "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
@@ -1263,24 +1535,7 @@ const points = [
         "xPos": 213,
         "yPos": 541
     },
-    {
-        "name": "Записка рыбака",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
-        "related_images" : ['./images/ru/notes/fishman.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 58,
-         "yPos": 627
-    },
-    {
-        "name": "Прогресс в изучении Дыры",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
-        "related_images" : ['./images/ru/notes/hole_progress.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": -620,
-         "yPos": -29
-    },
+
     {
         "name": "Спуск в Дыру",
         "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
@@ -1291,15 +1546,6 @@ const points = [
         "yPos": 46
     },
     {
-        "name": "Крипта",
-        "description": "Записка находится под кучей мусара.",
-        "related_images" : ['./images/ru/crypto.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": -394,
-        "yPos": -474
-    },
-    {
         "name": "Взлом сейфа",
         "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
         "related_images" : ['./images/ru/notes/safehack.jpg'],
@@ -1308,15 +1554,7 @@ const points = [
         "xPos": 1111111111111,
         "yPos": 1111111111111
     },
-    {
-        "name": "Крафт самодельной бомбы",
-        "description": "",
-        "related_images" : ['./images/ru/notes/pipebomb1.jpg', './images/ru/notes/pipebomb2.jpg', './images/ru/notes/pipebomb3.jpg', './images/ru/notes/pipebomb4.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 527.11,
-        "yPos": -699.18
-    },
+
 
     {
         "name": "Красный Куст",
@@ -1342,8 +1580,8 @@ const points = [
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/ru/stonehedge.png",
-        "xPos": 215,
-        "yPos": 541.1
+        "xPos": 213.47,
+        "yPos": 542.05
     },
 
     {
@@ -1370,67 +1608,22 @@ const points = [
         "description": "Нужно зацепиться за что-нибудь крюком (чтобы вас не засосало) и подождать, пока чёрная дыра наберёт достаточную мощь, а затем бросить в неё<br><br>красную, синюю, зелёную, голубую, розовую (порядок не важен) плюши Аргемии.<br><br>После исчезновения портала на его месте появится чёрная плюша Аргемии. Использованные цветные при этом пропадут!",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/ru/black_argemia.png",
+        "icon": "./icons/ru/plush_argemina_black.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Белая Аргемия",
+        "description": "",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Плюши Аргемии",
+        "icon": "./icons/ru/plush_argemina_white.png",
         "xPos": 111111111,
         "yPos": 111111111
     },
 
 
     {
-        "name": "Куртки",
-        "description": "Две куртки, лежат под столом. На себя надеть нельзя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/jackets.jpg'],
-        "category": "",
-        "icon": "./icons/ru/jacket.png",
-        "xPos": -622.54,
-        "yPos": -30.01
-    },
-    {
-        "name": "Бейджики",
-        "description": "Два бейджика, лежат на столе. На себя надеть нельзя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/badges.jpg'],
-        "category": "",
-        "icon": "./icons/ru/badge.png",
-        "xPos": 111111111,
-        "yPos": 111111111
-    },
-    {
-        "name": "Ремкомплект",
-        "description": "",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": -620.45,
-        "yPos": -31.61
-    },
-    {
-        "name": "Ремкомплект",
-        "description": "",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": -399.31,
-        "yPos": 198.55
-    },
-    {
-        "name": "Ремкомплект",
-        "description": "В гараже, за деревянными палеттами.",
-        "related_images" : ['./images/ru/toolbox_garage.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": -15.85,
-        "yPos": 7.86
-    },
-    {
-        "name": "Ремкомплект",
-        "description": "",
-        "related_images" : ['./images/ru/toolbox_bunker.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": 60.9,
-        "yPos": 624.3
-    },
-    {
         "name": "Ремкомплект",
         "description": "1111111111111",
         "related_images" : ['./images/ru/111111111.jpg'],
@@ -1457,78 +1650,8 @@ const points = [
         "xPos": 111111111,
         "yPos": 111111111
     },
-    {
-        "name": "Галстук-бабочки",
-        "description": "Две штуки лежат поверх ящиков в огорожденной зоне тестовых деревьев.",
-        "related_images" : ['./images/ru/bowties1.jpg', './images/ru/bowties2.jpg'],
-        "category": "",
-        "icon": "./icons/ru/bowtie.png",
-        "xPos": 111111111,
-        "yPos": 111111111
-    },
-    {
-        "name": "Очки",
-        "description": "Две пары очков, которые нельзя надеть на себя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "",
-        "icon": "./icons/ru/glasses.png",
-        "xPos": 62.23,
-        "yPos": 625.34
-    },
-    {
-        "name": "Счётчик Гейгера",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/rads.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/ru/rads.png",
-        "xPos": 62.99,
-        "yPos": 628.3
-    },
-    {
-        "name": "Чертёж - Радиоактивная капсула",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/blueprint_rads.jpg'],
-        "category": "",
-        "icon": "./icons/ru/blueprint.png",
-        "xPos": 62.75,
-        "yPos": 627.19
-    },
-    {
-        "name": "Лампа",
-        "description": "Заправляется топливом из канистр.",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/ru/lamp.png",
-        "xPos": -620.89,
-        "yPos": -31.15
-    },
-    {
-        "name": "Сварочная маска",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "",
-        "icon": "./icons/ru/weldingmask.png",
-        "xPos": -617.48,
-        "yPos": -22.53
-    },
-    {
-        "name": "Сварочная маска",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "",
-        "icon": "./icons/ru/weldingmask.png",
-        "xPos": 61.9,
-        "yPos": 622.97
-    },
-    {
-        "name": "Свинцовая труба",
-        "description": "Лежит в вентиляции.",
-        "related_images" : ['./images/ru/pipe.jpg'],
-        "category": "Инструменты",
-        "icon": "./icons/ru/pipe.png",
-        "xPos": -5.65,
-        "yPos": 18.3
-    },
+
+
     {
         "name": "Банка с мёдом",
         "description": "На столбе, можно залезть с помощью крюка.",
@@ -1539,49 +1662,13 @@ const points = [
         "yPos": -438.86
     },
     {
-        "name": "Аптечка",
-        "description": "В административной комнате Базы.",
-        "related_images" : ['./images/ru/medkit.jpg'],
-        "category": "",
-        "icon": "./icons/ru/medkit.png",
-        "xPos": -10,
-        "yPos": -8.3
-    },
-    {
-        "name": "Молотов",
-        "description": "Лежит в вентиляции.",
-        "related_images" : ['./images/ru/molotov.jpg'],
-        "category": "",
-        "icon": "./icons/ru/111111111.png",
-        "xPos": -5.1,
-        "yPos": 18.9
-    },
-    {
-        "name": "Куча мяса",
-        "description": "Используется для получение плюши Эйри. Собирать мусорным пакетом.",
-        "related_images" : ['./images/ru/meatpile.jpg'],
-        "category": "",
-        "icon": "./icons/ru/111111111.png",
-        "xPos": -548.5,
-        "yPos": 229.5
-    },
-    {
         "name": "Карта от бункера",
-        "description": "Карта для открытия входной двери в бункер. Подбирается с помощью крюка через окошко.",
+        "description": "Карта для открытия входной двери в бункер. Подбирается с помощью крюка через окошко. <br><br>Вторая дверь открывается с помощью сменщика паролей, который можно приобрести в магазине.",
         "related_images" : ['./images/ru/bunkercard1.jpg', './images/ru/bunkercard2.jpg', './images/ru/bunkercard3.jpg'],
-        "category": "",
+        "category": "Инструменты",
         "icon": "./icons/ru/keycard.png",
         "xPos": 111111111,
         "yPos": 111111111
-    },
-    {
-        "name": "Газовая горелка",
-        "description": "Лежит на бочке.",
-        "related_images" : ['./images/ru/gastool.jpg'],
-        "category": "",
-        "icon": "./icons/ru/gastool.png",
-        "xPos": -620.5,
-        "yPos": -23
     },
     {
         "name": "Статуя козла",
@@ -1589,8 +1676,8 @@ const points = [
         "related_images" : ['./images/ru/goat.jpg'],
         "category": "",
         "icon": "./icons/ru/111111111.png",
-        "xPos": 111111111,
-        "yPos": 111111111
+        "xPos": 12.65,
+        "yPos": 580.8
     },
     {
         "name": "Радиоактивные бочки",
@@ -1600,6 +1687,71 @@ const points = [
         "icon": "./icons/ru/111111111.png",
         "xPos": 571,
         "yPos": -518
+    },
+    {
+        "name": "Зелёный костёр",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 680,
+        "yPos": -573
+    },
+    
+    {
+        "name": "Постеры Ариралов",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/poster_arirals.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Табличка \"Не работает\"",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/outoforder_3.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/outoforder2.png",
+        "xPos": -401.76,
+        "yPos": -478
+    },
+    {
+        "name": "Раковина",
+        "description": "Декоративная раковина, не работает.",
+        "related_images" : ['./images/ru/sink.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/sink.png",
+        "xPos": -400.4,
+        "yPos": -480
+    },
+
+    {
+        "name": "Камера",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/basecam.jpg'],
+        "category": "",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 1.7,
+        "yPos": 9.8
+    },
+    {
+        "name": "\"Керфур Омега\" полная инструкция",
+        "description": "Книга, которая обязательна при создании Керфур-О. Находится в бункере возле Базы, в углу комнаты, за ящиками.",
+        "related_images" : ['./images/ru/omegabook1.jpg', './images/ru/omegabook2.jpg'],
+        "category": "Части Керфур-О",
+        "icon": "./icons/ru/kerfurbook.png",
+        "xPos": 21,
+        "yPos": 27
+    },
+    {
+        "name": "Дыра в заборе",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/fence.jpg'],
+        "category": "",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
     },
     {
         "name": "11111111",
