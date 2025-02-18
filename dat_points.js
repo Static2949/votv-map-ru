@@ -1,6 +1,78 @@
 const points = [
     //готовое
     {
+        "name": "Маленькая канистра топлива",
+        "description": "Находится в углу на крыше гаража возле одного из бургеров. Имеет 256.0 топлива.",
+        "related_images" : ['./images/ru/tinycan1.jpg', './images/ru/tinycan2.jpg'],
+        "category": "",
+        "icon": "./icons/ru/gastiny.png",
+        "xPos": -15.1,
+        "yPos": 12.3
+    },
+    {
+        "name": "Пароль от входной двери",
+        "description": "",
+        "related_images" : ['./images/ru/notes/base1111.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 1,
+        "yPos": 5
+    },
+    {
+        "name": "Пароль от комнаты администратора",
+        "description": "Лежит на ящиках в гараже. Комната администратора - переключатели света в коридоре Базы, аптечка, п с котиком.",
+        "related_images" : ['./images/ru/notes/base1234.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": -15,
+        "yPos": 10
+    },
+    {
+        "name": "Предупреждение бункера",
+        "description": "",
+        "related_images" : ['./images/ru/notes/bunker.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 20,
+        "yPos": 22
+    },
+    {
+        "name": "Переработка мусора",
+        "description": "Книжка на верстаке в гараже Базы.",
+        "related_images" : ['./images/ru/notes/scrap1.jpg', './images/ru/notes/scrap2.jpg', './images/ru/notes/scrap3.jpg', './images/ru/notes/scrap4.jpg', './images/ru/notes/scrap5.jpg', './images/ru/notes/scrap6.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": -23,
+        "yPos": 11
+    },
+    {
+        "name": "Камни",
+        "description": "В шкафу, вываливается вместе с камнями.",
+        "related_images" : ['./images/ru/notes/rocks.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": -19,
+        "yPos": 19
+    },
+    {
+        "name": "Фигура",
+        "description": "Записка лежит в вентиляции возле стула, под кучей ИРП.",
+        "related_images" : ['./images/ru/notes/vent.jpg', './images/ru/note_figure.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": -1,
+        "yPos": 26
+    },
+    {
+        "name": "Мясной дождь",
+        "description": "\"ЭТО ДОЖДЬ ИЗ ПЛОТИ\" на каждой строке, на всех каждой странице.",
+        "related_images" : ['./images/ru/notes/fleshrain.jpg'],
+        "category": "Записки",
+        "icon": "./icons/ru/note.png",
+        "xPos": 651,
+        "yPos": -641
+    },
+    {
         "name": "Походные сапоги",
         "description": "В офисном помещении Трансформатора 3, закидано мусором поверх.<br><br>Позволяет ходить по более крутым поверхностям, частично спасает от урона при падении.",
         "related_images" : ['./images/hikingBoots1_1.png'],
@@ -872,7 +944,7 @@ const points = [
     {
         "name": "Пикник",
         "description": "Появляется на 8-ой день.",
-        "related_images" : [],
+        "related_images" : ['./images/ru/picnic1.jpg', './images/ru/picnic2.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/picnic_blanket.png",
         "xPos": -199,
@@ -1409,13 +1481,13 @@ const points = [
         "yPos": 1111111111
     },
     {
-        "name": "Др. Кел",
+        "name": "Плюша Др. Кел",
         "description": "Появляется на входе Домика на Дереве на 25-ый день при высоком уровне репутации с Ариралами.",
         "related_images" : ['./images/ru/plush_kel.jpg'],
         "category": "Другие плюши",
         "icon": "./icons/ru/plush_kel.png",
-        "xPos": 1111111111,
-        "yPos": 1111111111
+        "xPos": 378.5,
+        "yPos": 388
     },
     {
         "name": "Плита Огня",
@@ -1446,84 +1518,12 @@ const points = [
     },
     {
         "name": "Зелёный камень",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
+        "description": "Появляется если потушить Зелёный костёр с помощью огнетушителя. Костёр появляется в период 00:00 до 01:00 ночи.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "",
-        "icon": "./icons/ru/wip.png",
-        "xPos": 1111111111,
-        "yPos": 1111111111
-    },
-    {
-        "name": "Маленькая канистра топлива",
-        "description": "Находится в углу на крыше гаража возле одного из бургеров. Имеет 256.0 топлива.",
-        "related_images" : ['./images/ru/tinycan1.jpg', './images/ru/tinycan2.jpg'],
-        "category": "",
-        "icon": "./icons/ru/gastiny.png",
-        "xPos": -15.1,
-        "yPos": 12.3
-    },
-    {
-        "name": "Пароль от входной двери",
-        "description": "",
-        "related_images" : ['./images/ru/notes/base1111.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 1,
-        "yPos": 5
-    },
-    {
-        "name": "Пароль от комнаты администратора",
-        "description": "Лежит на ящиках в гараже. Комната администратора - переключатели света в коридоре Базы, аптечка, п с котиком.",
-        "related_images" : ['./images/ru/notes/base1234.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": -15,
-        "yPos": 10
-    },
-    {
-        "name": "Предупреждение бункера",
-        "description": "",
-        "related_images" : ['./images/ru/notes/bunker.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 20,
-        "yPos": 22
-    },
-    {
-        "name": "Переработка мусора",
-        "description": "Книжка на верстаке в гараже Базы.",
-        "related_images" : ['./images/ru/notes/scrap1.jpg', './images/ru/notes/scrap2.jpg', './images/ru/notes/scrap3.jpg', './images/ru/notes/scrap4.jpg', './images/ru/notes/scrap5.jpg', './images/ru/notes/scrap6.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": -23,
-        "yPos": 11
-    },
-    {
-        "name": "Камни",
-        "description": "В шкафу, вываливается вместе с камнями.",
-        "related_images" : ['./images/ru/notes/rocks.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": -19,
-        "yPos": 19
-    },
-    {
-        "name": "Фигура",
-        "description": "Записка лежит в вентиляции возле стула, под кучей ИРП.",
-        "related_images" : ['./images/ru/notes/vent.jpg', './images/ru/note_figure.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": -1,
-        "yPos": 26
-    },
-    {
-        "name": "Мясной дождь",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
-        "related_images" : ['./images/ru/notes/fleshrain.jpg'],
-        "category": "Записки",
-        "icon": "./icons/ru/note.png",
-        "xPos": 651,
-        "yPos": -641
+        "icon": "./icons/ru/green_rock.png",
+        "xPos": 681,
+        "yPos": -574
     },
 
     {
@@ -1557,9 +1557,9 @@ const points = [
 
 
     {
-        "name": "Красный Куст",
+        "name": "Красный Куст / Ритуальный Алтарь",
         "description": "Находится внутри Хижины Охотника. При заходе в куст в 3:33 ночи, вас переместит в локацию Ритуального Алтаря, с которым связаны несколько других секретных предметов.<br>В самом кусте лежит череп животного.",
-        "related_images" : ['./images/ru/bush.jpg', './images/ru/animal_skull.jpg'],
+        "related_images" : ['./images/ru/bush.jpg', './images/ru/animal_skull.jpg', './images/ru/altar.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/ru/bush.png",
         "xPos": 407.8,
@@ -1567,12 +1567,12 @@ const points = [
     },
     {
         "name": "Домик на Дереве",
-        "description": "Описание.<br><br>Строка2<br><br>Строка3<b>bold</b><u>underline</u>.",
-        "related_images" : ['./images/ru/111111111.jpg'],
+        "description": "Домик Ариралов, появляющийся в ночь 16-17 дня.<br>Строится по 21-ый день.<br>Каждый день появляются новые предметы, такие как постеры, ножи, мойки и другое.<br>Воровство из домика понизит репутацию с Ариралами, принос упаковок креветок - повысит.",
+        "related_images" : ['./images/ru/treehouse.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/ru/treehouse.png",
-        "xPos": 1111111111111,
-        "yPos": 1111111111111
+        "xPos": 370,
+        "yPos": 388.3
     },
     {
         "name": "Стоунхедж / Ад",
@@ -1622,36 +1622,6 @@ const points = [
         "yPos": 111111111
     },
 
-
-    {
-        "name": "Ремкомплект",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": 111111111,
-        "yPos": 111111111
-    },
-    {
-        "name": "Ремкомплект",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": 111111111,
-        "yPos": 111111111
-    },
-    {
-        "name": "Ремкомплект",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "Ремкомплекты",
-        "icon": "./icons/ru/toolbox.png",
-        "xPos": 111111111,
-        "yPos": 111111111
-    },
-
-
     {
         "name": "Банка с мёдом",
         "description": "На столбе, можно залезть с помощью крюка.",
@@ -1672,10 +1642,10 @@ const points = [
     },
     {
         "name": "Статуя козла",
-        "description": "1111111111111",
+        "description": "Статуя козла, которая может перемещаться со своего постамента в другие различные локации.",
         "related_images" : ['./images/ru/goat.jpg'],
         "category": "",
-        "icon": "./icons/ru/111111111.png",
+        "icon": "./icons/ru/goat.png",
         "xPos": 12.65,
         "yPos": 580.8
     },
@@ -1684,13 +1654,13 @@ const points = [
         "description": "С ними нельзя ничего делать. При нахождении рядом с ними вы можете получить радиоактивное отравление.",
         "related_images" : ['./images/ru/radbarrels1.jpg', './images/ru/radbarrels2.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/ru/111111111.png",
+        "icon": "./icons/ru/rad_barrels.png",
         "xPos": 571,
         "yPos": -518
     },
     {
         "name": "Зелёный костёр",
-        "description": "1111111111111",
+        "description": "Появляется в период 00:00 - 01:00 ночи.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "",
         "icon": "./icons/ru/111111111.png",
