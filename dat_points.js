@@ -374,7 +374,7 @@ const points = [
         "description": "Не вешается на стену, придётся прибивать гвоздями.",
         "related_images" : ['./images/ru/outoforder1.jpg', './images/ru/outoforder2.jpg'],
         "category": "Декор",
-        "icon": "./icons/ru/111111111.png",
+        "icon": "./icons/ru/outoforder1.png",
         "xPos": 56.36,
         "yPos": 622.8
     },
@@ -935,7 +935,7 @@ const points = [
     {
         "name": "Бомбоубежище",
         "description": "Люк не открывается.",
-        "related_images" : [],
+        "related_images" : ['./images/ru/bunker.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/bunker.png",
         "xPos": 60.25,
@@ -953,7 +953,7 @@ const points = [
     {
         "name": "Могильные плиты",
         "description": "Сюда перемещается игрок после выхода из локации Ритуального Алтаря.",
-        "related_images" : [],
+        "related_images" : ['./images/ru/graves.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/grave.png",
         "xPos": -347.4,
@@ -1334,17 +1334,17 @@ const points = [
     },
     {
         "name": "Box of Drives",
-        "description": "A box containing 8 drives with level 3 signals can be dug up near the pole in the middle of the grassy circle. You can send the drives off for some points or you can keep them, but make sure to check them out on your console at some point :)",
-        "related_images" : ['./images/driveBox1_1.png'],
+        "description": "Коробка с 8 дисками. Можете продать, можете оставить. Но не забудьте просканировать <br>;)",
+        "related_images" : ['./images/driveBox1_1.png', './images/ru/drives2.jpg'],
         "category": "",
         "icon": "./icons/drive_box.png",
         "xPos": -118.8,
         "yPos": -42.1
     },
     {
-        "name": "Drive",
-        "description": "Can be dug up on the gravel between the bunker and the parking lot.",
-        "related_images" : [],
+        "name": "Диск",
+        "description": "Можно выкопать между Бункером и парковкой. Можете продать, можете оставить. Но не забудьте просканировать <br>;)",
+        "related_images" : ['./images/ru/drive1.jpg', './images/ru/drive2.jpg'],
         "category": "",
         "icon": "./icons/drive.png",
         "xPos": 15.9,
@@ -1476,9 +1476,9 @@ const points = [
         "description": "Собрать 4 Руны, поместить их в нужные места у Ритуальномого Алтаря. Проткнуть себя Ритуальным Ножом.<br>Игрушка появится на ритуальном столе.<br> Отсылка на игру <a href=\"https://ru.wikipedia.org/wiki/Cult_of_the_Lamb\" target=\"_blank\" rel=\"noopener noreferrer\">Cult of the Lamb</a>",
         "related_images" : ['./images/ru/plush_lamb1.jpg', './images/ru/plush_lamb2.jpg'],
         "category": "Другие плюши",
-        "icon": "./icons/ru/plush_lamb.png",
-        "xPos": 1111111111,
-        "yPos": 1111111111
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 409,
+        "yPos": 21
     },
     {
         "name": "Плюша Др. Кел",
@@ -1515,15 +1515,6 @@ const points = [
         "icon": "./icons/ru/slab.png",
         "xPos": 418,
         "yPos": -422
-    },
-    {
-        "name": "Зелёный камень",
-        "description": "Появляется если потушить Зелёный костёр с помощью огнетушителя. Костёр появляется в период 00:00 до 01:00 ночи.",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "",
-        "icon": "./icons/ru/green_rock.png",
-        "xPos": 681,
-        "yPos": -574
     },
 
     {
@@ -1596,12 +1587,12 @@ const points = [
 
     {
         "name": "Ритуальный нож",
-        "description": "",
+        "description": "Лежит на столе Ритуального Алтаря. Используется для получения некоторых предметов - но будет больно.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "",
         "icon": "./icons/ru/ritual_knife.png",
-        "xPos": 111111111,
-        "yPos": 111111111
+        "xPos": 406,
+        "yPos": 19
     },
     {
         "name": "Чёрная Аргемия",
@@ -1609,17 +1600,17 @@ const points = [
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Плюши Аргемии",
         "icon": "./icons/ru/plush_argemina_black.png",
-        "xPos": 111111111,
-        "yPos": 111111111
+        "xPos": 212,
+        "yPos": 540
     },
     {
         "name": "Белая Аргемия",
-        "description": "",
+        "description": "Компьютер указан потому, что для её получения вам потребуется промышленный 3D принтер.<br>А как конкретно её получать - поищите в интернете, там всё сложно.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Плюши Аргемии",
         "icon": "./icons/ru/plush_argemina_white.png",
-        "xPos": 111111111,
-        "yPos": 111111111
+        "xPos": 3.33,
+        "yPos": 17.8
     },
 
     {
@@ -1637,8 +1628,8 @@ const points = [
         "related_images" : ['./images/ru/bunkercard1.jpg', './images/ru/bunkercard2.jpg', './images/ru/bunkercard3.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/keycard.png",
-        "xPos": 111111111,
-        "yPos": 111111111
+        "xPos": 18.9,
+        "yPos": 27.8
     },
     {
         "name": "Статуя козла",
@@ -1658,6 +1649,16 @@ const points = [
         "xPos": 571,
         "yPos": -518
     },
+
+    {
+        "name": "Зелёный камень",
+        "description": "Появляется если потушить Зелёный костёр с помощью огнетушителя. Костёр появляется в период 00:00 до 01:00 ночи.",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "",
+        "icon": "./icons/ru/green_rock.png",
+        "xPos": 684,
+        "yPos": -575
+    },
     {
         "name": "Зелёный костёр",
         "description": "Появляется в период 00:00 - 01:00 ночи.",
@@ -1665,7 +1666,7 @@ const points = [
         "category": "",
         "icon": "./icons/ru/111111111.png",
         "xPos": 680,
-        "yPos": -573
+        "yPos": -575
     },
     
     {
@@ -1680,7 +1681,7 @@ const points = [
     {
         "name": "Табличка \"Не работает\"",
         "description": "1111111111111",
-        "related_images" : ['./images/ru/outoforder_3.jpg'],
+        "related_images" : ['./images/ru/outoforder3.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/outoforder2.png",
         "xPos": -401.76,
@@ -1692,16 +1693,25 @@ const points = [
         "related_images" : ['./images/ru/sink.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/sink.png",
-        "xPos": -400.4,
+        "xPos": -398.4,
         "yPos": -480
+    },
+    {
+        "name": "Кроватка для кошечки",
+        "description": ":3",
+        "related_images" : ['./images/ru/catbed.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/catbed.png",
+        "xPos": -398.4,
+        "yPos": -477
     },
 
     {
         "name": "Камера",
-        "description": "1111111111111",
+        "description": "Камера, которая доступна в самом начале игры (но её нужно активировать) и имеет уникальную модель.",
         "related_images" : ['./images/ru/basecam.jpg'],
         "category": "",
-        "icon": "./icons/ru/111111111.png",
+        "icon": "./icons/ru/basecam.png",
         "xPos": 1.7,
         "yPos": 9.8
     },
@@ -1718,6 +1728,42 @@ const points = [
         "name": "Дыра в заборе",
         "description": "1111111111111",
         "related_images" : ['./images/ru/fence.jpg'],
+        "category": "",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": -697,
+        "yPos": -80
+    },
+    {
+        "name": "Осиное гнездо",
+        "description": "Если находиться к нему близко, то из него вылетают злые осы, которые могут вас убить!<br>Осы пропадают, если взять улей в инвентарь.<br>Вероятно, будут использоваться в улье для фермы мёда.",
+        "related_images" : ['./images/ru/bees.jpg'],
+        "category": "",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 420,
+        "yPos": 265
+    },
+    {
+        "name": "Известняковый блок",
+        "description": "Просто огромный бесполезный блок.",
+        "related_images" : ['./images/ru/concrete.jpg'],
+        "category": "",
+        "icon": "./icons/ru/concrete.png",
+        "xPos": 567,
+        "yPos": 237
+    },
+    {
+        "name": "11111111",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "11111111",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
         "category": "",
         "icon": "./icons/ru/111111111.png",
         "xPos": 111111111,
