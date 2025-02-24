@@ -1253,7 +1253,7 @@ const points = [
     // Items of Interest
     {
         "name": "Лопата",
-        "description": "Found leaning on 3 supply boxes next to stonehenge.",
+        "description": "Стоит возле трёх ящиков с припасами возле Стоунхеджа.",
         "related_images" : ['./images/shovel1_1.png'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
@@ -1280,7 +1280,7 @@ const points = [
     },
     {
         "name": "Лопата",
-        "description": "Found up in TR_2.",
+        "description": "В TR_2.",
         "related_images" : ['./images/shovel4_1.png'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
@@ -1289,7 +1289,7 @@ const points = [
     },
     {
         "name": "Лейка",
-        "description": "Found on a shelf in TR_1.",
+        "description": "На полке в TR_1.",
         "related_images" : ['./images/wateringCan1_1.png'],
         "category": "Инструменты",
         "icon": "./icons/watering_can.png",
@@ -1298,7 +1298,7 @@ const points = [
     },
     {
         "name": "Лейка",
-        "description": "Found up in TR_2.",
+        "description": "В TR_2.",
         "related_images" : ['./images/wateringCan2_1.png'],
         "category": "Инструменты",
         "icon": "./icons/watering_can.png",
@@ -1307,7 +1307,7 @@ const points = [
     },
     {
         "name": "Лейка",
-        "description": "Found in the corner of TR_3.",
+        "description": "В углу TR_3.",
         "related_images" : ['./images/wateringCan3_1.png'],
         "category": "Инструменты",
         "icon": "./icons/watering_can.png",
@@ -1333,7 +1333,7 @@ const points = [
         "yPos": -10.5
     },
     {
-        "name": "Box of Drives",
+        "name": "Коробка с дисками",
         "description": "Коробка с 8 дисками. Можете продать, можете оставить. Но не забудьте просканировать <br>;)",
         "related_images" : ['./images/driveBox1_1.png', './images/ru/drives2.jpg'],
         "category": "",
@@ -1361,8 +1361,8 @@ const points = [
     },
     // KerfurO parts
     {
-        "name": "Knee Joints",
-        "description": "Found in TR_1. In the office, inside a bucket.",
+        "name": "Коленный соединитель",
+        "description": "В офисе TR_1, в ведре.",
         "related_images" : ['./images/kneeJoints1_1.png'],
         "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
@@ -1370,8 +1370,8 @@ const points = [
         "yPos": 198.27
     },
     {
-        "name": "Knee Joints",
-        "description": "Found in TR_2. In the office, on a box under a workbench.",
+        "name": "Коленный соединитель",
+        "description": "В офисе TR_2, на ящике под верстаком.",
         "related_images" : ['./images/kneeJoints2_1.png'],
         "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
@@ -1379,8 +1379,8 @@ const points = [
         "yPos": 235.5
     },
     {
-        "name": "Knee Joints",
-        "description": "Found in TR_3. In the office corner on the shelf.",
+        "name": "Коленный соединитель",
+        "description": "В офисе TR_3, в углу верхней полки шкафа.",
         "related_images" : ['./images/kneeJoints3_1.png'],
         "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
@@ -1389,7 +1389,7 @@ const points = [
     },
     {
         "name": "Закопаные части Керфура",
-        "description": "Contains two ball joints.",
+        "description": "В ящике - 2 шаровых соединителя.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
@@ -1398,7 +1398,7 @@ const points = [
     },
     {
         "name": "Закопаные части Керфура",
-        "description": "Contains two ball joints.",
+        "description": "В ящике - 2 шаровых соединителя.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
@@ -1407,7 +1407,7 @@ const points = [
     },
     {
         "name": "Закопаные части Керфура",
-        "description": "Contains two ball joints.",
+        "description": "В ящике - 2 шаровых соединителя.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
@@ -1416,7 +1416,7 @@ const points = [
     },
     {
         "name": "Закопаные части Керфура",
-        "description": "Contains two ball joints.",
+        "description": "В ящике - 2 шаровых соединителя.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
@@ -1425,7 +1425,7 @@ const points = [
     },
     {
         "name": "Закопаные части Керфура",
-        "description": "Contains two ball joints.",
+        "description": "В ящике - 2 шаровых соединителя.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
@@ -1434,7 +1434,7 @@ const points = [
     },
     {
         "name": "Закопаные части Керфура",
-        "description": "Contains two ball joints.",
+        "description": "В ящике - 2 шаровых соединителя.",
         "related_images" : ['./images/ru/kerfurparts.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/old_wooden_box.png",
@@ -1599,7 +1599,7 @@ const points = [
         "description": "Нужно зацепиться за что-нибудь крюком (чтобы вас не засосало) и подождать, пока чёрная дыра наберёт достаточную мощь, а затем бросить в неё<br><br>красную, синюю, зелёную, голубую, розовую (порядок не важен) плюши Аргемии.<br><br>После исчезновения портала на его месте появится чёрная плюша Аргемии. Использованные цветные при этом пропадут!",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/ru/plush_argemina_black.png",
+        "icon": "./icons/ru/plush_argemia_black.png",
         "xPos": 212,
         "yPos": 540
     },
@@ -1608,7 +1608,7 @@ const points = [
         "description": "Компьютер указан потому, что для её получения вам потребуется промышленный 3D принтер.<br>А как конкретно её получать - поищите в интернете, там всё сложно.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/ru/plush_argemina_white.png",
+        "icon": "./icons/ru/plush_argemia_white.png",
         "xPos": 3.33,
         "yPos": 17.8
     },
