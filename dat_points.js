@@ -75,7 +75,7 @@ const points = [
     {
         "name": "Походные сапоги",
         "description": "В офисном помещении Трансформатора 3, закидано мусором поверх.<br><br>Позволяет ходить по более крутым поверхностям, частично спасает от урона при падении.",
-        "related_images" : ['./images/hikingBoots1_1.png'],
+        "related_images" : ['./images/questwalker/equipment/hikingBoots1_1.png'],
         "category": "Экипировка",
         "icon": "./icons/hiking_boots.png",
         "xPos": -402.4,
@@ -183,7 +183,7 @@ const points = [
     {
         "name": "Мотошлем",
         "description": "Мотошлем уменьшает количество урона головы, что также может снижать количество урона получаемое от падений. Можно попытаться получить шлем аккуратно спускаясь по скале и камням но, лучше, всё-таки использовать крюк.",
-        "related_images" : ['./images/helmet1_1.png', './images/helmet1_2.png', './images/helmet1_3.png', './images/ru/equipment/helmet_close.jpg'],
+        "related_images" : ['./images/questwalker/equipment/helmet1_1.png', './images/questwalker/equipment/helmet1_2.png', './images/questwalker/equipment/helmet1_3.png', './images/ru/equipment/helmet_close.jpg'],
         "category": "Экипировка",
         "icon": "./icons/helmet.png",
         "xPos": -50.6,
@@ -246,7 +246,7 @@ const points = [
     {
         "name": "Радиоактивная капсула",
         "description": "<div style=\"color: red;\">НЕ СТОЙТЕ У НЕЁ, ОНА ДЕЙСТВИТЕЛЬНО РАДИОАКТИВНА!<br><br>ДЛЯ БЕЗОПАСНОГО ИЗВЛЕЧЕНИЯ И ПЕРЕНОСКИ ПОТРЕБУЕТСЯ ПРОТИВОРАДИОЦИОННЫЙ КОСТЮМ!</div>Торчит из земли возле скелета. Для выкапывания потребуется лопата.",
-        "related_images" : ['./images/radioactiveCapsule1_1.png', './images/radioactiveCapsule1_2.png', './images/radioactiveCapsule1_3.png'],
+        "related_images" : ['./images/questwalker/tools/radioactiveCapsule1_1.png', './images/questwalker/tools/radioactiveCapsule1_2.png', './images/questwalker/tools/radioactiveCapsule1_3.png'],
         "category": "",
         "icon": "./icons/radioactive_canister.png",
         "xPos": -569.5,
@@ -255,7 +255,7 @@ const points = [
     {
         "name": "Детектор ЕМП",
         "description": "Закопана возле упавшего фонаря. Помогает находить аномалии. Сигналы детектора усиливаются, например, в подвале Базы, у Стоунхеджа, в Хижине Охотника.",
-        "related_images" : ['./images/emfDetector1_1.png'],
+        "related_images" : ['./images/questwalker/equipment/emfDetector1_1.png'],
         "category": "Инструменты",
         "icon": "./icons/emf_detector.png",
         "xPos": -623,
@@ -291,7 +291,7 @@ const points = [
     {
         "name": "Рыболовные снасти",
         "description": "Закопаны, для раскопки нужна лопата. Для нахождения точного расположения может помочь металлоискатель.<br>Находится справа от воздушной турбины. Внутри коробки - части удочки и снасти. Соедините все части удочки на верстаке, и можете рыбачить.",
-        "related_images" : ['./images/fishingSupplies1_1.png', './images/ru/tools/fishsupplies.jpg'],
+        "related_images" : ['./images/questwalker/tools/fishingSupplies1_1.png', './images/ru/tools/fishsupplies.jpg'],
         "category": "Инструменты",
         "icon": "./icons/fishermans_box.png",
         "xPos": 175.8,
@@ -699,7 +699,7 @@ const points = [
     {
         "name": "Металлическая Плитка #1",
         "description": "Спрятана за колонной “балкона” Базы, можно забраться спрыгнув крыши, или с помощью крюка.",
-        "related_images" : ['./images/tile1_1.png', './images/tile1_2.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile1_1.png', './images/questwalker/metaltiles/tile1_2.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -9,
@@ -708,7 +708,7 @@ const points = [
     {
         "name": "Металлическая Плитка #2",
         "description": "На бревне моста.",
-        "related_images" : ['./images/tile2_1.png', './images/tile2_2.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile2_1.png', './images/questwalker/metaltiles/tile2_2.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -77.3,
@@ -717,7 +717,7 @@ const points = [
     {
         "name": "Металлическая Плитка #3",
         "description": "Застряла в основании ствола дерева.",
-        "related_images" : ['./images/tile3_1.png', './images/tile3_2.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile3_1.png', './images/questwalker/metaltiles/tile3_2.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -464.3,
@@ -726,7 +726,7 @@ const points = [
     {
         "name": "Металлическая Плитка #4",
         "description": "WIP",
-        "related_images" : ['./images/tile4_1.png', './images/tile4_2.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile4_1.png', './images/questwalker/metaltiles/tile4_2.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -525.3,
@@ -735,7 +735,7 @@ const points = [
     {
         "name": "Металлическая Плитка #5",
         "description": "Спрятана за ящиками у Дыры.",
-        "related_images" : ['./images/tile5_1.png', './images/tile5_2.png', './images/tile5_3.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile5_1.png', './images/questwalker/metaltiles/tile5_2.png', './images/questwalker/metaltiles/tile5_3.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -615,
@@ -744,7 +744,7 @@ const points = [
     {
         "name": "Металлическая Плитка #6",
         "description": "Лежит на крыше будки охранника. Залезть можно прыгая по столбам, или с помощью крюка.",
-        "related_images" : ['./images/tile6_1.png', './images/ru/tile_guard1.jpg', './images/ru/tile_guard2.jpg'],
+        "related_images" : ['./images/questwalker/metaltiles/tile6_1.png', './images/ru/tile_guard1.jpg', './images/ru/tile_guard2.jpg'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -372,
@@ -753,7 +753,7 @@ const points = [
     {
         "name": "Металлическая Плитка #7",
         "description": "Лежит возле Зелёного шкафа.",
-        "related_images" : ['./images/tile7_1.png', './images/tile7_2.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile7_1.png', './images/questwalker/metaltiles/tile7_2.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": 616,
@@ -762,7 +762,7 @@ const points = [
     {
         "name": "Металлическая Плитка #8",
         "description": "Лежит за стеной телескопа Uniform. Просто перелезьте через перила и пройдитесь по выступу.",
-        "related_images" : ['./images/tile8_1.png', './images/tile8_2.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile8_1.png', './images/questwalker/metaltiles/tile8_2.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": 500.37,
@@ -771,7 +771,7 @@ const points = [
     {
         "name": "Металлическая Плитка #9",
         "description": "Да-да, всё верно, именно там. Нужно будет перелезть через основном забор карты и двигаться к стыку северного и восточного барьеров.",
-        "related_images" : ['./images/tile9_1.png', './images/tile9_2.png', './images/tile9_3.png'],
+        "related_images" : ['./images/questwalker/metaltiles/tile9_1.png', './images/questwalker/metaltiles/tile9_2.png', './images/questwalker/metaltiles/tile9_3.png'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": 874,
@@ -781,7 +781,7 @@ const points = [
     {
         "name": "Красная Аргемия",
         "description": "Сидит в крутой яме. Выбраться из ямы можно крюком, или телепортировавшись, нажав на пончик.",
-        "related_images" : ['./images/redArgemia1_1.png', './images/redArgemia1_2.png', './images/redArgemia1_3.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/redArgemia1_1.png', './images/questwalker/plush//argemia/redArgemia1_2.png', './images/questwalker/plush//argemia/redArgemia1_3.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/red_argemia.png",
         "xPos": 626,
@@ -790,7 +790,7 @@ const points = [
     {
         "name": "Зелёная Аргемия",
         "description": "Да, за забором. Сидит на высокой горе, любуясь видом.",
-        "related_images" : ['./images/greenArgemia1_1.png', './images/greenArgemia1_2.png', './images/greenArgemia1_3.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/greenArgemia1_1.png', './images/questwalker/plush//argemia/greenArgemia1_2.png', './images/questwalker/plush//argemia/greenArgemia1_3.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/green_argemia.png",
         "xPos": 239,
@@ -799,7 +799,7 @@ const points = [
     {
         "name": "Синяя Аргемия",
         "description": "In the river near quebec.",
-        "related_images" : ['./images/blueArgemia1_1.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/blueArgemia1_1.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/blue_argemia.png",
         "xPos": -315,
@@ -808,7 +808,7 @@ const points = [
     {
         "name": "Голубая Аргемия",
         "description": "Для призыва плюши нужно положить ровно 12 упаковок креветок в мини-бассейн на Базе. После этого нужно совершить взрыв в воде – для этого можно использовать канистру или взрывную бочку.",
-        "related_images" : ['./images/cyanArgemia1_1.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/cyanArgemia1_1.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/cyan_argemia.png",
         "xPos": -8.5,
@@ -817,7 +817,7 @@ const points = [
     {
         "name": "Розовая Аргемия",
         "description": "Появляется после получения сигнала <i>“Розовый Луч”</i>.",
-        "related_images" : ['./images/magentaArgemia1_1.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/magentaArgemia1_1.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/magenta_argemia.png",
         "xPos": 637.5,
@@ -826,7 +826,7 @@ const points = [
     {
         "name": "Жёлтая Аргемия",
         "description": "The yellow Argemia plush requires a ritual to spawn.<br>- First, place a shrimp pack (or multiple) at each corner of the map's fence.<br>- Next, place a shrimp pack on the sewer drain in the basement.<br>- Then, nearing 12:50 at night, stand in a corner of the basement and face away from the shrimp. Around 00:00, a wooshing sound will play, and you can turn to find the argemia summoned. It might take a couple minutes to spawn, so do not turn until you hear it spawn or at least 00:15.<br><br>You can use a clock/watch to help keep track of time. This ritual can be difficult to preform due to cockroaches or Arirals eating the shrimp you've placed.",
-        "related_images" : ['./images/yellowArgemia1_1.png', './images/yellowArgemia1_2.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/yellowArgemia1_1.png', './images/questwalker/plush//argemia/yellowArgemia1_2.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/yellow_argemia.png",
         "xPos": -11,
@@ -835,7 +835,7 @@ const points = [
     {
         "name": "Ядерная синяя Аргемия",
         "description": "Ты что, кошканутый? Шо ты там делаешь? Самое абсурдное место!<br><br>Сидит на невидимом кубе высоко в небе. Сбить её предметами нельзя, поэтому придётся добираться до неё самостоятельно.<br><br>Можно лезть вверх барьера с помощью крюка, а можно взлететь на стуле, используя воздушные шарики.",
-        "related_images" : ['./images/glowingBlueArgemia1_1.png', './images/glowingBlueArgemia1_2.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/glowingBlueArgemia1_1.png', './images/questwalker/plush//argemia/glowingBlueArgemia1_2.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/glowing_blue_argemia.png",
         "xPos": 872,
@@ -844,7 +844,7 @@ const points = [
     {
         "name": "Ядерная голубая Аргемия",
         "description": "Needs to be dug up using a shovel. You can use a metal detector if you're having any trouble finding it. Be careful to not let the plushie roll down the hill.",
-        "related_images" : ['./images/glowingCyanArgemia1_1.png', './images/glowingCyanArgemia1_2.png', './images/glowingCyanArgemia1_3.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/glowingCyanArgemia1_1.png', './images/questwalker/plush//argemia/glowingCyanArgemia1_2.png', './images/questwalker/plush//argemia/glowingCyanArgemia1_3.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/glowing_cyan_argemia.png",
         "xPos": -634,
@@ -853,7 +853,7 @@ const points = [
     {
         "name": "Ядерная розовая Аргемия",
         "description": "The plush's spawn location is located near the top of the tower. In order for the plush to spawn, something (a piece of trash, a drone, etc.) needs to enter the spawning location's hitbox. The usual method is placing a drone around (35.22, -37.23) and then having the drone fly straight up. You can use a digital map to place the drone accurately.<br>When the plush spawns, it will fall. Make sure to watch the drone's camera and check outside often so you don't miss it.",
-        "related_images" : ['./images/glowingMagentaArgemia1_1.png', './images/glowingMagentaArgemia1_2.png'],
+        "related_images" : ['./images/questwalker/plush//argemia/glowingMagentaArgemia1_1.png', './images/questwalker/plush//argemia/glowingMagentaArgemia1_2.png'],
         "category": "Плюши Аргемии",
         "icon": "./icons/glowing_magenta_argemia.png",
         "xPos": 35.22,
@@ -954,7 +954,7 @@ const points = [
     {
         "name": "Бургер #1",
         "description": "Лежит поверх серверов.",
-        "related_images" : ["./images/burger1_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger1_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -8.4,
@@ -963,7 +963,7 @@ const points = [
     {
         "name": "Бургер #2",
         "description": "Внутри духовки.",
-        "related_images" : ["./images/burger2_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger2_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -14.7,
@@ -972,7 +972,7 @@ const points = [
     {
         "name": "Бургер #3",
         "description": "На унитазе.",
-        "related_images" : ["./images/burger3_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger3_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -12,
@@ -981,7 +981,7 @@ const points = [
     {
         "name": "Бургер #4",
         "description": "Наверху радиобашни, на одной из антенн. Можно залезть с помощью крюка.",
-        "related_images" : ["./images/burger4_1.png", "./images/burger4_2.png"],
+        "related_images" : ["./images/questwalker/burger/burger4_1.png", "./images/questwalker/burger/burger4_2.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 21.7,
@@ -990,7 +990,7 @@ const points = [
     {
         "name": "Бургер #5",
         "description": "Под лестницей в подвал Базы.",
-        "related_images" : ["./images/burger5_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger5_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -20.4,
@@ -999,7 +999,7 @@ const points = [
     {
         "name": "Бургер #6",
         "description": "На крыше, сверху вентиляции.",
-        "related_images" : ["./images/burger6_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger6_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -2.6,
@@ -1008,7 +1008,7 @@ const points = [
     {
         "name": "Бургер #7",
         "description": "Сверху радиопрозрачного купола.",
-        "related_images" : ["./images/burger7_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger7_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -10.8,
@@ -1017,7 +1017,7 @@ const points = [
     {
         "name": "Бургер #8",
         "description": "На крыше гаража, в уголке.",
-        "related_images" : ["./images/burger8_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger8_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -14.8,
@@ -1026,7 +1026,7 @@ const points = [
     {
         "name": "Бургер #9",
         "description": "На одном из камней структуры Стоунхеджа.",
-        "related_images" : ['./images/burger9_1.png'],
+        "related_images" : ['./images/questwalker/burger/burger9_1.png'],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 216,
@@ -1035,7 +1035,7 @@ const points = [
     {
         "name": "Бургер #10",
         "description": "В реке под мостом возле Базы. Мокрый бургер, очень вкусно...",
-        "related_images" : ["./images/burger10_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger10_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -62.9,
@@ -1044,7 +1044,7 @@ const points = [
     {
         "name": "Бургер #11",
         "description": "Внутри бревна, прячется под кучей камней.",
-        "related_images" : ['./images/burger11_1.png', './images/burger11_2.png'],
+        "related_images" : ['./images/questwalker/burger/burger11_1.png', './images/questwalker/burger/burger11_2.png'],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 349.1,
@@ -1053,7 +1053,7 @@ const points = [
     {
         "name": "Бургер #12",
         "description": "На ящиках в зоне тестовых деревьев.",
-        "related_images" : ["./images/burger12_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger12_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 518.5,
@@ -1062,7 +1062,7 @@ const points = [
     {
         "name": "Бургер #13",
         "description": "В Хижине Охотника под столами.",
-        "related_images" : ["./images/burger13_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger13_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 408.95,
@@ -1071,7 +1071,7 @@ const points = [
     {
         "name": "Бургер #14",
         "description": "На крыше Трансформатора 2, сидит между стеной и вентиляцией.",
-        "related_images" : ["./images/burger14_1.png", "./images/burger14_2.png"],
+        "related_images" : ["./images/questwalker/burger/burger14_1.png", "./images/questwalker/burger/burger14_2.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -553.4,
@@ -1080,7 +1080,7 @@ const points = [
     {
         "name": "Бургер #15",
         "description": "На металлическом полу Juliett.",
-        "related_images" : ["./images/burger15_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger15_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -100.2,
@@ -1089,7 +1089,7 @@ const points = [
     {
         "name": "Бургер #16",
         "description": "На земле, у генератора.",
-        "related_images" : ["./images/burger16_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger16_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -623,
@@ -1098,7 +1098,7 @@ const points = [
     {
         "name": "Бургер #17",
         "description": "Перед пещерой.",
-        "related_images" : ["./images/burger17_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger17_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -651.1,
@@ -1107,7 +1107,7 @@ const points = [
     {
         "name": "Бургер #18",
         "description": "В пещере, среди грибов",
-        "related_images" : ["./images/burger18_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger18_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": -683.7,
@@ -1116,7 +1116,7 @@ const points = [
     {
         "name": "Бургер #19",
         "description": "На земле, возле <i>Прибором Розиталов</i>.",
-        "related_images" : ["./images/burger19_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger19_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 639.2,
@@ -1125,7 +1125,7 @@ const points = [
     {
         "name": "Бургер #20",
         "description": "Закопан, потребуется лопата. Найти конкретную точку поможет металлодетектор.",
-        "related_images" : ["./images/burger20_1.png"],
+        "related_images" : ["./images/questwalker/burger/burger20_1.png"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 157,
@@ -1190,7 +1190,7 @@ const points = [
     {
         "name": "Череп",
         "description": "Закопан под <i>Прибором Розиталов</i>.<br>Можно выкопать даже если Технология Розиталов всё ещё на месте - если копнуть в определённом конкретном месте.",
-        "related_images" : ['./images/skull2_1.png', './images/skull2_2.png'],
+        "related_images" : ['./images/questwalker/skull/skull2_1.png', './images/questwalker/skull/skull2_2.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": 637.54,
@@ -1199,7 +1199,7 @@ const points = [
     {
         "name": "Череп",
         "description": "Посреди Стоунхеджа.",
-        "related_images" : ['./images/skull3_1.png'],
+        "related_images" : ['./images/questwalker/skull/skull3_1.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": 212.27,
@@ -1208,7 +1208,7 @@ const points = [
     {
         "name": "Череп",
         "description": "В круге гравия.",
-        "related_images" : ['./images/skull4_1.png'],
+        "related_images" : ['./images/questwalker/skull/skull4_1.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": -352,
@@ -1217,7 +1217,7 @@ const points = [
     {
         "name": "Череп",
         "description": "В закопанной коробке с костями.",
-        "related_images" : ['./images/boneBox1_3.png'],
+        "related_images" : ['./images/questwalker/skull/boneBox1_3.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": 263.6,
@@ -1226,7 +1226,7 @@ const points = [
     {
         "name": "Череп",
         "description": "Возле Радиоактивной капсулы.",
-        "related_images" : ['./images/skull5_1.png'],
+        "related_images" : ['./images/questwalker/skull/skull5_1.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": -570,
@@ -1235,7 +1235,7 @@ const points = [
     {
         "name": "Череп",
         "description": "В пещере.",
-        "related_images" : ['./images/skull6_1.png'],
+        "related_images" : ['./images/questwalker/skull/skull6_1.png'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": -655.93,
@@ -1245,7 +1245,7 @@ const points = [
     {
         "name": "Лопата",
         "description": "Стоит возле трёх ящиков с припасами возле Стоунхеджа.",
-        "related_images" : ['./images/shovel1_1.png'],
+        "related_images" : ['./images/questwalker/tools/shovel/shovel1_1.png'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
         "xPos": 209.2,
@@ -1272,7 +1272,7 @@ const points = [
     {
         "name": "Лопата",
         "description": "В TR_2.",
-        "related_images" : ['./images/shovel4_1.png'],
+        "related_images" : ['./images/questwalker/tools/shovel/shovel4_1.png'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
         "xPos": -543.53,
@@ -1290,7 +1290,7 @@ const points = [
     {
         "name": "Лейка",
         "description": "В TR_2.",
-        "related_images" : ['./images/wateringCan2_1.png'],
+        "related_images" : ['./images/questwalker/tools/wateringcan/wateringCan2_1.png'],
         "category": "Инструменты",
         "icon": "./icons/watering_can.png",
         "xPos": -549.13,
@@ -1299,7 +1299,7 @@ const points = [
     {
         "name": "Лейка",
         "description": "В углу TR_3.",
-        "related_images" : ['./images/wateringCan3_1.png'],
+        "related_images" : ['./images/questwalker/tools/wateringcan/wateringCan3_1.png'],
         "category": "Инструменты",
         "icon": "./icons/watering_can.png",
         "xPos": -402.26,
@@ -1308,7 +1308,7 @@ const points = [
     {
         "name": "Топор",
         "description": "В Хижине охотника, под кроватью.",
-        "related_images" : ['./images/axe1_1.png'],
+        "related_images" : ['./images/questwalker/equipment/axe1_1.png'],
         "category": "Инструменты",
         "icon": "./icons/axe.png",
         "xPos": 406.5,
@@ -1344,7 +1344,7 @@ const points = [
     {
         "name": "Коробка с костями",
         "description": "Can be dug up next to the boulder in the middle of the grassy circle. An old wooden box containing a some bones and a skull. The box is breakable.",
-        "related_images" : ['./images/boneBox1_1.png', './images/boneBox1_2.png', './images/boneBox1_3.png'],
+        "related_images" : ['./images/questwalker/skull/boneBox1_1.png', './images/questwalker/skull/boneBox1_2.png', './images/questwalker/skull/boneBox1_3.png'],
         "category": "",
         "icon": "./icons/old_wooden_box.png",
         "xPos": 263.6,
@@ -1354,7 +1354,7 @@ const points = [
     {
         "name": "Коленный соединитель",
         "description": "В офисе TR_1, в ведре.",
-        "related_images" : ['./images/kneeJoints1_1.png'],
+        "related_images" : ['./images/questwalker/kerfurparts/kneeJoints1_1.png'],
         "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
         "xPos": 390.47,
@@ -1363,7 +1363,7 @@ const points = [
     {
         "name": "Коленный соединитель",
         "description": "В офисе TR_2, на ящике под верстаком.",
-        "related_images" : ['./images/kneeJoints2_1.png'],
+        "related_images" : ['./images/questwalker/kerfurparts/kneeJoints2_1.png'],
         "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
         "xPos": -550.22,
@@ -1372,7 +1372,7 @@ const points = [
     {
         "name": "Коленный соединитель",
         "description": "В офисе TR_3, в углу верхней полки шкафа.",
-        "related_images" : ['./images/kneeJoints3_1.png'],
+        "related_images" : ['./images/questwalker/kerfurparts/kneeJoints3_1.png'],
         "category": "Части Керфур-О",
         "icon": "./icons/knee_joint.png",
         "xPos": -400.55,
