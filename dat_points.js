@@ -192,7 +192,7 @@ const points = [
     {
         "name": "Бочка с ИРП",
         "description": "Внутри воткнутого в землю огромного бревна у реки. Внутри бочки – 50 ИРП.",
-        "related_images" : ['./images/ru/barrel1.jpg', './images/ru/barrel2.jpg'],
+        "related_images" : ['./images/ru/places/barrel1.jpg', './images/ru/places/barrel2.jpg'],
         "category": "",
         "icon": "./icons/barrel.png",
         "xPos": 233.36,
@@ -744,7 +744,7 @@ const points = [
     {
         "name": "Металлическая Плитка #6",
         "description": "Лежит на крыше будки охранника. Залезть можно прыгая по столбам, или с помощью крюка.",
-        "related_images" : ['./images/questwalker/metaltiles/tile6_1.png', './images/ru/tile_guard1.jpg', './images/ru/tile_guard2.jpg'],
+        "related_images" : ['./images/questwalker/metaltiles/tile6_1.png', './images/ru/metaltiles/tile_guard1.jpg', './images/ru/metaltiles/tile_guard2.jpg'],
         "category": "Металлические Плитки",
         "icon": "./icons/metal_tile.png",
         "xPos": -372,
@@ -899,7 +899,7 @@ const points = [
     {
         "name": "Хижина охотника",
         "description": "Мурашащяя старая хижина, в которой находятся множество интересных вещей.<br>Также три головы животных и шкура животного, которыми можно украсить свою базу.",
-        "related_images" : ['./images/ru/hunter.jpg', './images/ru/hunter_heads.jpg', './images/ru/hunter_skin.jpg'],
+        "related_images" : ['./images/ru/places/hunter.jpg', './images/ru/places/hunter_heads.jpg', './images/ru/places/hunter_skin.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/shack.png",
         "xPos": 408.5,
@@ -908,7 +908,7 @@ const points = [
     {
         "name": "Разрушенный дом",
         "description": "",
-        "related_images" : ['./images/ru/abandoned.jpg'],
+        "related_images" : ['./images/ru/places/abandoned.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/house.png",
         "xPos": 662.5,
@@ -926,7 +926,7 @@ const points = [
     {
         "name": "Бомбоубежище",
         "description": "Люк не открывается.",
-        "related_images" : ['./images/ru/bunker.jpg'],
+        "related_images" : ['./images/ru/places/bunker.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/bunker.png",
         "xPos": 60.25,
@@ -944,7 +944,7 @@ const points = [
     {
         "name": "Могильные плиты",
         "description": "Сюда перемещается игрок после выхода из локации Ритуального Алтаря.",
-        "related_images" : ['./images/ru/graves.jpg'],
+        "related_images" : ['./images/ru/places/graves.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/grave.png",
         "xPos": -347.4,
@@ -1134,7 +1134,7 @@ const points = [
     {
         "name": "Бургер #21",
         "description": "Среди камней за Whiskey.",
-        "related_images" : ["./images/ru/burger21_1.jpg", "./images/ru/burger21_2.jpg", "./images/ru/burger21_3.jpg"],
+        "related_images" : ["./images/ru/burger/burger21_1.jpg", "./images/ru/burger/burger21_2.jpg", "./images/ru/burger/burger21_3.jpg"],
         "category": "Бургеры",
         "icon": "./icons/burger.png",
         "xPos": 18.14,
@@ -1181,7 +1181,7 @@ const points = [
     {
         "name": "Череп",
         "description": "За ящиками, в подвале Базы.",
-        "related_images" : ['./images/ru/skull_basement1.jpg', './images/ru/skull_basement2.jpg'],
+        "related_images" : ['./images/ru/skull/skull_basement1.jpg', './images/ru/skull/skull_basement2.jpg'],
         "category": "Черепа",
         "icon": "./icons/skull.png",
         "xPos": -7.25,
@@ -1435,7 +1435,7 @@ const points = [
     {
         "name": "Сейф",
         "description": "Находится на дне озера. Чтобы достать - иметь при себе подводную маску.<br><br>Открывается, как и настоящие сейфы.<br><br>Взломать сейф - легко.<br>Сначала, наведите курсор на дверь сейфа. Начните медленно поворачивать колёсико мыши в каком-нибудь направлении. Когда услышите щелчёк, который не похож на остальные - начинайте крутить в другую сторону. После нескольких таких успешных щелчков, дверь сейфа откроется.<br><br>Внутри лежит Омега ИИ Модуль, который используется для создания Керфур-О.",
-        "related_images" : ['./images/ru/safe.jpg'],
+        "related_images" : ['./images/ru/places/safe.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/safe.png",
         "xPos": 404.8,
@@ -1541,7 +1541,7 @@ const points = [
     {
         "name": "Красный Куст / Ритуальный Алтарь",
         "description": "Находится внутри Хижины Охотника. При заходе в куст в 3:33 ночи, вас переместит в локацию Ритуального Алтаря, с которым связаны несколько других секретных предметов.<br>В самом кусте лежит череп животного.",
-        "related_images" : ['./images/ru/bush.jpg', './images/ru/animal_skull.jpg', './images/ru/altar.jpg'],
+        "related_images" : ['./images/ru/places/bush.jpg', './images/ru/places/animal_skull.jpg', './images/ru/places/altar.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/ru/bush.png",
         "xPos": 407.8,
@@ -1625,7 +1625,7 @@ const points = [
     {
         "name": "Статуя козла",
         "description": "Статуя козла, которая может перемещаться со своего постамента в другие различные локации.",
-        "related_images" : ['./images/ru/goat.jpg'],
+        "related_images" : ['./images/ru/places/goat.jpg'],
         "category": "",
         "icon": "./icons/ru/goat.png",
         "xPos": 12.65,
@@ -1634,7 +1634,7 @@ const points = [
     {
         "name": "Радиоактивные бочки",
         "description": "С ними нельзя ничего делать. При нахождении рядом с ними вы можете получить радиоактивное отравление.",
-        "related_images" : ['./images/ru/radbarrels1.jpg', './images/ru/radbarrels2.jpg'],
+        "related_images" : ['./images/ru/places/radbarrels1.jpg', './images/ru/places/radbarrels2.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/ru/rad_barrels.png",
         "xPos": 571,
@@ -1682,7 +1682,7 @@ const points = [
     {
         "name": "\"Керфур Омега\" полная инструкция",
         "description": "Книга, которая обязательна при создании Керфур-О. Находится в бункере возле Базы, в углу комнаты, за ящиками.",
-        "related_images" : ['./images/ru/tools/omegabook1.jpg', './images/ru/tools/omegabook2.jpg'],
+        "related_images" : ['./images/ru/kerfurparts/omegabook1.jpg', './images/ru/kerfurparts/omegabook2.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/ru/kerfurbook.png",
         "xPos": 21,
@@ -1691,7 +1691,7 @@ const points = [
     {
         "name": "Дыра в заборе",
         "description": "1111111111111",
-        "related_images" : ['./images/ru/fence.jpg'],
+        "related_images" : ['./images/ru/places/fence.jpg'],
         "category": "",
         "icon": "./icons/ru/111111111.png",
         "xPos": -697,
