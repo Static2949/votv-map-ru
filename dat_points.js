@@ -441,15 +441,6 @@ const points = [
         "xPos": 527.11,
         "yPos": -699.18
     },
-    {
-        "name": "Медицинские принадлежности",
-        "description": "Окровавленный столик, можно убрать в инвентарь. На нём также лежат ножницы и подставка для медицинских инструментов.",
-        "related_images" : ['./images/ru/medtable.jpg'],
-        "category": "",
-        "icon": "./icons/ru/medtable.png",
-        "xPos": -401.5,
-        "yPos": -482.4
-    },
     // Satellites
     {
         "name": "Bravo",
@@ -1290,7 +1281,7 @@ const points = [
     {
         "name": "Лейка",
         "description": "На полке в TR_1.",
-        "related_images" : ['./images/wateringCan1_1.png'],
+        "related_images" : ['./images/tr1_tools.jpg'],
         "category": "Инструменты",
         "icon": "./icons/watering_can.png",
         "xPos": 398.72,
@@ -1678,33 +1669,6 @@ const points = [
         "xPos": 111111111,
         "yPos": 111111111
     },
-    {
-        "name": "Табличка \"Не работает\"",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/outoforder3.jpg'],
-        "category": "Декор",
-        "icon": "./icons/ru/outoforder2.png",
-        "xPos": -401.76,
-        "yPos": -478
-    },
-    {
-        "name": "Раковина",
-        "description": "Декоративная раковина, не работает.",
-        "related_images" : ['./images/ru/sink.jpg'],
-        "category": "Декор",
-        "icon": "./icons/ru/sink.png",
-        "xPos": -398.4,
-        "yPos": -480
-    },
-    {
-        "name": "Кроватка для кошечки",
-        "description": ":3",
-        "related_images" : ['./images/ru/catbed.jpg'],
-        "category": "Декор",
-        "icon": "./icons/ru/catbed.png",
-        "xPos": -398.4,
-        "yPos": -477
-    },
 
     {
         "name": "Камера",
@@ -1738,7 +1702,7 @@ const points = [
         "description": "Если находиться к нему близко, то из него вылетают злые осы, которые могут вас убить!<br>Осы пропадают, если взять улей в инвентарь.<br>Вероятно, будут использоваться в улье для фермы мёда.",
         "related_images" : ['./images/ru/bees.jpg'],
         "category": "",
-        "icon": "./icons/ru/111111111.png",
+        "icon": "./icons/ru/waspnest.png",
         "xPos": 420,
         "yPos": 265
     },
@@ -1751,24 +1715,92 @@ const points = [
         "xPos": 567,
         "yPos": 237
     },
+
+
+
+    {
+        "name": "Декор в TR_1",
+        "description": "3 мусорки, стол, 4 стула, стол, монитор, клавиатура, комп. мышь, комп. блок, тумбочка, подушка, 2 горшка",
+        "related_images" : ['./images/ru/tr1_decor1.jpg', './images/ru/tr1_decor2.jpg', './images/ru/tr1_decor3.jpg', './images/ru/tr1_decor4.jpg', ],
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
+        "xPos": 396.1,
+        "yPos": 200
+    },
+    {
+        "name": "Декор в TR_2",
+        "description": "2 скамейки, бочка, 2 таблички \"мокрый пол\", 3 дорожных конуса, стол, стул, монитор, комп. блок, клавиатура, мусорка",
+        "related_images" : ['./images/ru/tr2_decor1.jpg', './images/ru/tr2_decor2.jpg', './images/ru/tr2_decor3.jpg', './images/ru/tr2_decor4.jpg', './images/ru/tr2_decor5.jpg', './images/ru/tr2_decor6.jpg', ],
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
+        "xPos": -546,
+        "yPos": 234
+    },
+    {
+        "name": "Декор в TR_3",
+        "description": "Мусорка, бочка, медицинский столик, мед. принадлежности, осциллограф, раковина, кроватка для кошечки, табличка \"мокрый пол\", ящик, покрышка, пластиковый стул, табличка \"не работает\", монитор, 3 комп. мыши, 2 комп. блока",
+        "related_images" : ['./images/ru/tr3_decor1.jpg', './images/ru/tr3_decor2.jpg', './images/ru/tr3_decor3.jpg', './images/ru/tr3_decor4.jpg', './images/ru/tr3_decor5.jpg', './images/ru/catbed.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
+        "xPos": -396.5,
+        "yPos": -480.1
+    },
+    {
+        "name": "Возле Tango",
+        "description": "5 мусорок",
+        "related_images" : ['./images/ru/decor_right1.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
+        "xPos": 514.4,
+        "yPos": -417
+    },
+    {
+        "name": "Возле Tango",
+        "description": "5 скамеек, 2 мусорки",
+        "related_images" : ['./images/ru/decor_right2.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
+        "xPos": 487.6,
+        "yPos": -410.6
+    },
     {
         "name": "11111111",
-        "description": "1111111111111",
+        "description": "тут штучки возле козла",
         "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "",
-        "icon": "./icons/ru/111111111.png",
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
         "xPos": 111111111,
         "yPos": 111111111
     },
     {
-        "name": "11111111",
-        "description": "1111111111111",
-        "related_images" : ['./images/ru/111111111.jpg'],
-        "category": "",
+        "name": "Декор Дыры",
+        "description": "4 фонаря, 2 стола, 3 мусорки, 5 стульев, бочка",
+        "related_images" : ['./images/ru/hole_decor1.jpg'],
+        "category": "Декор",
+        "icon": "./icons/ru/decor.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Декор возле построек у Дыры",
+        "description": "4 мусорки",
+        "related_images" : ['./images/ru/hole_decor2.jpg'],
+        "category": "Декор",
         "icon": "./icons/ru/111111111.png",
         "xPos": 111111111,
         "yPos": 111111111
     },
+
+    {
+        "name": "Костюм служанки",
+        "description": "В версии игры 0.8.2-b. В закопанном сейфе. На себя надеть нельзя, но можно надеть на Керфур-О.",
+        "related_images" : ['./images/ru/kermaid1.jpg', './images/ru/kermaid2.jpg', './images/ru/111111111.jpg', ],
+        "category": "Экипировка",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": -358,
+        "yPos": -490
+    },
+
     {
         "name": "11111111",
         "description": "1111111111111",
