@@ -102,7 +102,7 @@ const points = [
     {
         "name": "Галстук-бабочки",
         "description": "Две штуки лежат поверх ящиков в огорожденной зоне тестовых деревьев.",
-        "related_images" : ['./images/ru/equipment/bowties1.jpg', './images/ru/equipment/bowties2.jpg'],
+        "related_images" : ['./images/ru/equipment/bowties1.jpg', './images/ru/equipment/bowties2.jpg', './images/ru/kerfur/tie.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/bowtie.png",
         "xPos": 518.8,
@@ -111,7 +111,7 @@ const points = [
     {
         "name": "Очки",
         "description": "Две пары очков, которые нельзя надеть на себя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/equipment/glasses.jpg'],
+        "related_images" : ['./images/ru/equipment/glasses.jpg', './images/ru/kerfur/glasses.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/glasses.png",
         "xPos": 62.23,
@@ -129,7 +129,7 @@ const points = [
     {
         "name": "Куртки",
         "description": "Две куртки, лежат под столом. На себя надеть нельзя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/equipment/jackets.jpg'],
+        "related_images" : ['./images/ru/equipment/jackets.jpg', './images/ru/kerfur/jacket.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/jacket.png",
         "xPos": -622.54,
@@ -138,7 +138,7 @@ const points = [
     {
         "name": "Бейджики",
         "description": "Два бейджика, лежат на столе. На себя надеть нельзя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/equipment/badges.jpg'],
+        "related_images" : ['./images/ru/equipment/badges.jpg', './images/ru/kerfur/badge.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/badge.png",
         "xPos": -622.54,
