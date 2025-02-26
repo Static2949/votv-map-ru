@@ -3,7 +3,7 @@ const points = [
     {
         "name": "Маленькая канистра топлива",
         "description": "Находится в углу на крыше гаража возле одного из бургеров. Имеет 256.0 топлива.",
-        "related_images" : ['./images/ru/tinycan1.jpg', './images/ru/tinycan2.jpg'],
+        "related_images" : ['./images/ru/tools/gascans/tinycan1.jpg', './images/ru/tools/gascans/tinycan2.jpg'],
         "category": "",
         "icon": "./icons/ru/gascan.png",
         "xPos": -15.1,
@@ -84,7 +84,7 @@ const points = [
     {
         "name": "Плита Воздуха",
         "description": "Подсказывает, как получить Руну Воздуха. Стоит на электростолбе у Трансформатора 1, можно добраться с помощью крюка.",
-        "related_images" : ['./images/ru/plate_air1.jpg', './images/ru/plate_air2.jpg'],
+        "related_images" : ['./images/ru/runeplates/plate_air1.jpg', './images/ru/runeplates/plate_air2.jpg'],
         "category": "Рунные Плиты",
         "icon": "./icons/ru/slab.png",
         "xPos": 389,
@@ -102,7 +102,7 @@ const points = [
     {
         "name": "Галстук-бабочки",
         "description": "Две штуки лежат поверх ящиков в огорожденной зоне тестовых деревьев.",
-        "related_images" : ['./images/ru/bowties1.jpg', './images/ru/bowties2.jpg'],
+        "related_images" : ['./images/ru/equipment/bowties1.jpg', './images/ru/equipment/bowties2.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/bowtie.png",
         "xPos": 518.8,
@@ -111,7 +111,7 @@ const points = [
     {
         "name": "Очки",
         "description": "Две пары очков, которые нельзя надеть на себя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/glasses.jpg'],
+        "related_images" : ['./images/ru/equipment/glasses.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/glasses.png",
         "xPos": 62.23,
@@ -120,7 +120,7 @@ const points = [
     {
         "name": "Счётчик Гейгера",
         "description": "Предупреждает о радиоактивных местах.",
-        "related_images" : ['./images/ru/rads.jpg'],
+        "related_images" : ['./images/ru/equipment/rads.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/rads.png",
         "xPos": 62.99,
@@ -129,7 +129,7 @@ const points = [
     {
         "name": "Куртки",
         "description": "Две куртки, лежат под столом. На себя надеть нельзя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/jackets.jpg'],
+        "related_images" : ['./images/ru/equipment/jackets.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/jacket.png",
         "xPos": -622.54,
@@ -138,7 +138,7 @@ const points = [
     {
         "name": "Бейджики",
         "description": "Два бейджика, лежат на столе. На себя надеть нельзя, но можно надеть на Керфур-О.",
-        "related_images" : ['./images/ru/badges.jpg'],
+        "related_images" : ['./images/ru/equipment/badges.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/badge.png",
         "xPos": -622.54,
@@ -147,7 +147,7 @@ const points = [
     {
         "name": "Ремкомплект",
         "description": "",
-        "related_images" : ['./images/ru/toolbox_hole.jpg'],
+        "related_images" : ['./images/ru/toolbox/toolbox_hole.jpg'],
         "category": "Ремкомплекты",
         "icon": "./icons/ru/toolbox.png",
         "xPos": -620.45,
@@ -156,7 +156,7 @@ const points = [
     {
         "name": "Ремкомплект",
         "description": "Внутри помещения Трансформатора 1.",
-        "related_images" : ['./images/ru/toolbox_tr1.jpg'],
+        "related_images" : ['./images/ru/toolbox/toolbox_tr1.jpg'],
         "category": "Ремкомплекты",
         "icon": "./icons/ru/toolbox.png",
         "xPos": 399.31,
@@ -165,7 +165,7 @@ const points = [
     {
         "name": "Ремкомплект",
         "description": "В гараже, за деревянными палеттами.",
-        "related_images" : ['./images/ru/toolbox_garage.jpg'],
+        "related_images" : ['./images/ru/toolbox/toolbox_garage.jpg'],
         "category": "Ремкомплекты",
         "icon": "./icons/ru/toolbox.png",
         "xPos": -15.85,
@@ -174,7 +174,7 @@ const points = [
     {
         "name": "Ремкомплект",
         "description": "",
-        "related_images" : ['./images/ru/toolbox_bunker.jpg'],
+        "related_images" : ['./images/ru/toolbox/toolbox_bunker.jpg'],
         "category": "Ремкомплекты",
         "icon": "./icons/ru/toolbox.png",
         "xPos": 60.9,
@@ -183,7 +183,7 @@ const points = [
     {
         "name": "Мотошлем",
         "description": "Мотошлем уменьшает количество урона головы, что также может снижать количество урона получаемое от падений. Можно попытаться получить шлем аккуратно спускаясь по скале и камням но, лучше, всё-таки использовать крюк.",
-        "related_images" : ['./images/helmet1_1.png', './images/helmet1_2.png', './images/helmet1_3.png', './images/helmet_close.jpg'],
+        "related_images" : ['./images/helmet1_1.png', './images/helmet1_2.png', './images/helmet1_3.png', './images/ru/equipment/helmet_close.jpg'],
         "category": "Экипировка",
         "icon": "./icons/helmet.png",
         "xPos": -50.6,
@@ -264,7 +264,7 @@ const points = [
     {
         "name": "Кирка",
         "description": "Застряла в земле под водой, возле ветки. Желательно иметь при себе подводную маску.",
-        "related_images" : ['./images/ru/pickaxe.jpg'],
+        "related_images" : ['./images/ru/tools/pickaxe.jpg'],
         "category": "Инструменты",
         "icon": "./icons/pickaxe.png",
         "xPos": 390.8,
@@ -273,7 +273,7 @@ const points = [
     {
         "name": "Свеча",
         "description": "Античный подсвечник, который можно выкопать, находясь в бревне, под водой. Пасхалка в честь ютубера <a href=\"https://www.youtube.com/channel/UCnCmb1vpv90EeSX5g7K4UYQ\" target=\"_blank\" rel=\"noopener noreferrer\">The Librarian</a>. Для зажжения используйте зажигалку.",
-        "related_images" : ['./images/ru/candle1.jpg', './images/ru/candle2.jpg', './images/ru/candle3.jpg'],
+        "related_images" : ['./images/ru/tools/candle1.jpg', './images/ru/tools/candle2.jpg', './images/ru/tools/candle3.jpg'],
         "category": "Инструменты",
         "icon": "./icons/candle.png",
         "xPos": 378.5,
@@ -291,7 +291,7 @@ const points = [
     {
         "name": "Рыболовные снасти",
         "description": "Закопаны, для раскопки нужна лопата. Для нахождения точного расположения может помочь металлоискатель.<br>Находится справа от воздушной турбины. Внутри коробки - части удочки и снасти. Соедините все части удочки на верстаке, и можете рыбачить.",
-        "related_images" : ['./images/fishingSupplies1_1.png', './images/ru/fishsupplies.jpg'],
+        "related_images" : ['./images/fishingSupplies1_1.png', './images/ru/tools/fishsupplies.jpg'],
         "category": "Инструменты",
         "icon": "./icons/fishermans_box.png",
         "xPos": 175.8,
@@ -309,7 +309,7 @@ const points = [
     {
         "name": "Лампа",
         "description": "Заправляется топливом из канистр.",
-        "related_images" : ['./images/ru/lamp.jpg'],
+        "related_images" : ['./images/ru/tools/lamp1.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/lamp.png",
         "xPos": -620.89,
@@ -318,7 +318,7 @@ const points = [
     {
         "name": "Сварочная маска",
         "description": "За ящиками.",
-        "related_images" : ['./images/ru/welder_hole.jpg'],
+        "related_images" : ['./images/ru/equipment/welder_hole.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/weldingmask.png",
         "xPos": -617.48,
@@ -327,7 +327,7 @@ const points = [
     {
         "name": "Сварочная маска",
         "description": "",
-        "related_images" : ['./images/ru/welder_bunker.jpg'],
+        "related_images" : ['./images/ru/equipment/welder_bunker.jpg'],
         "category": "Экипировка",
         "icon": "./icons/ru/weldingmask.png",
         "xPos": 61.9,
@@ -336,7 +336,7 @@ const points = [
     {
         "name": "Свинцовая труба",
         "description": "Лежит в вентиляции. Ей можно бить.",
-        "related_images" : ['./images/ru/pipe.jpg'],
+        "related_images" : ['./images/ru/tools/pipe.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/pipe.png",
         "xPos": -5.65,
@@ -344,8 +344,8 @@ const points = [
     },
     {
         "name": "Аптечка",
-        "description": "В административной комнате Базы. Мгновенно вылечивает весь урон (кроме радиоактивного отравления). Одноразовая.",
-        "related_images" : ['./images/ru/medkit.jpg'],
+        "description": "В административной комнате Базы. Мгновенно вылечивает весь урон (кроме рака). Одноразовая.",
+        "related_images" : ['./images/ru/tools/medkit.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/medkit.png",
         "xPos": -10.13,
@@ -354,7 +354,7 @@ const points = [
     {
         "name": "Молотов",
         "description": "Лежит в вентиляции. Чтобы пользоваться, нужно включить \"Экстримальную боёвку\" в Эксперементальной вкладке настроек игры.",
-        "related_images" : ['./images/ru/molotov.jpg'],
+        "related_images" : ['./images/ru/tools/molotov.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/molotov.png",
         "xPos": -8,
@@ -363,7 +363,7 @@ const points = [
     {
         "name": "Газосварочный аппарат",
         "description": "Лежит на бочке. Используется при создании Радиоактивной Капсулы.",
-        "related_images" : ['./images/ru/gastool.jpg'],
+        "related_images" : ['./images/ru/tools/gastool.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/gastool.png",
         "xPos": -620.5,
@@ -372,7 +372,7 @@ const points = [
     {
         "name": "Табличка \"Не работает\"",
         "description": "Не вешается на стену, придётся прибивать гвоздями.",
-        "related_images" : ['./images/ru/outoforder1.jpg', './images/ru/outoforder2.jpg'],
+        "related_images" : ['./images/ru/decor/outoforder1.jpg', './images/ru/decor/outoforder2.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/outoforder1.png",
         "xPos": 56.36,
@@ -381,7 +381,7 @@ const points = [
     {
         "name": "Постер \"Hang in there!\"",
         "description": "Висит в администраторской комнате Базы.",
-        "related_images" : ['./images/ru/poster_kitty.jpg'],
+        "related_images" : ['./images/ru/decor/posters/poster_kitty.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/posters.png",
         "xPos": -9.15,
@@ -390,7 +390,7 @@ const points = [
     {
         "name": "Постер карты",
         "description": "В главной комнате Базы.",
-        "related_images" : ['./images/ru/poster_map.jpg'],
+        "related_images" : ['./images/ru/decor/posters/poster_map.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/posters.png",
         "xPos": -5.18,
@@ -399,7 +399,7 @@ const points = [
     {
         "name": "Постер о кофе",
         "description": "Висит в столовой Базы.",
-        "related_images" : ['./images/ru/poster_coffee.jpg'],
+        "related_images" : ['./images/ru/decor/posters/poster_coffee.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/posters.png",
         "xPos": -17.5,
@@ -408,7 +408,7 @@ const points = [
     {
         "name": "Постер о чистке рук",
         "description": "Висит в туалете Базы.",
-        "related_images" : ['./images/ru/poster_filth.jpg'],
+        "related_images" : ['./images/ru/decor/posters/poster_filth.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/posters.png",
         "xPos": -11.2,
@@ -417,7 +417,7 @@ const points = [
     {
         "name": "Постер \"Я верю\"",
         "description": "Висит в спальне-кухне Базы.<br><br>Является отсылкой на сериал \"Секретные Материалы\" - замазаны буквы \"want to\", вместо НЛО - Стрела Ариралов.",
-        "related_images" : ['./images/ru/poster_believe.jpg'],
+        "related_images" : ['./images/ru/decor/posters/poster_believe.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/posters.png",
         "xPos": -7,
@@ -917,7 +917,7 @@ const points = [
     {
         "name": "Колодец",
         "description": "Закрыт досками, которые можно сломать.<br><br>Переносит игрока в отдельную локацию, если в нём уснуть. На дне лежат кости и крюк.",
-        "related_images" : ['./images/well1_1.png','./images/well1_2.png', './images/ru/well_hook.jpg'],
+        "related_images" : ['./images/well1_1.png','./images/well1_2.png', './images/ru/equipment/well_hook.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/well.png",
         "xPos": 564.4,
@@ -935,7 +935,7 @@ const points = [
     {
         "name": "Пикник",
         "description": "Появляется на 8-ой день.",
-        "related_images" : ['./images/ru/picnic1.jpg', './images/ru/picnic2.jpg'],
+        "related_images" : ['./images/ru/events/picnic1.jpg', './images/ru/events/picnic2.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/picnic_blanket.png",
         "xPos": -199,
@@ -1254,7 +1254,7 @@ const points = [
     {
         "name": "Лопата",
         "description": "Стоит у стены возле Красного Куста.",
-        "related_images" : ['./images/ru/shovel_hunter.jpg'],
+        "related_images" : ['./images/ru/tools/shovel/shovel_hunter.jpg'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
         "xPos": 408.36,
@@ -1263,7 +1263,7 @@ const points = [
     {
         "name": "Лопата",
         "description": "Внутри будки охранника. Дверь будки можно сломать. Например, камнем или ломом.",
-        "related_images" : ['./images/ru/shovel_guard.jpg'],
+        "related_images" : ['./images/ru/tools/shovel/shovel_guard.jpg'],
         "category": "Инструменты",
         "icon": "./icons/shovel.png",
         "xPos": -369.12,
@@ -1447,7 +1447,7 @@ const points = [
     {
         "name": "Keljoy",
         "description": "Плюшевый Келджой, лежит в чемодане с которым приехал игрок.",
-        "related_images" : ['./images/ru/plush_keljoy1.jpg', './images/ru/plush_keljoy2.jpg'],
+        "related_images" : ['./images/ru/plush/keljoy1.jpg', './images/ru/plush/keljoy2.jpg'],
         "category": "Другие плюши",
         "icon": "./icons/ru/plush_keljoy.png",
         "xPos": -375.11,
@@ -1456,7 +1456,7 @@ const points = [
     {
         "name": "Эйри",
         "description": "Для получение потребуются лопата, мусорный пакет и куча мяса (лежит возле Трансформатора 2).<br>Положить кучу мяса в мусорный пакет.<br>Закопать пакет возле граффити \"Erie Zone\".<br>Находиться там в полночь.",
-        "related_images" : ['./images/ru/erie1.jpg', './images/ru/erie2.jpg', './images/ru/erie3.jpg', './images/ru/erie4.jpg', './images/ru/erie5.jpg'],
+        "related_images" : ['./images/ru/plush/erie/erie1.jpg', './images/ru/plush/erie/erie2.jpg', './images/ru/plush/erie/erie3.jpg', './images/ru/plush/erie/erie4.jpg', './images/ru/plush/erie/erie5.jpg'],
         "category": "Другие плюши",
         "icon": "./icons/ru/plush_erie.png",
         "xPos": 10.9,
@@ -1474,7 +1474,7 @@ const points = [
     {
         "name": "Плюша Др. Кел",
         "description": "Появляется на входе Домика на Дереве на 25-ый день при высоком уровне репутации с Ариралами.",
-        "related_images" : ['./images/ru/plush_kel.jpg'],
+        "related_images" : ['./images/ru/plush/kel.jpg'],
         "category": "Другие плюши",
         "icon": "./icons/ru/plush_kel.png",
         "xPos": 378.5,
@@ -1550,7 +1550,7 @@ const points = [
     {
         "name": "Домик на Дереве",
         "description": "Домик Ариралов, появляющийся в ночь 16-17 дня.<br>Строится по 21-ый день.<br>Каждый день появляются новые предметы, такие как постеры, ножи, мойки и другое.<br>Воровство из домика понизит репутацию с Ариралами, принос упаковок креветок - повысит.",
-        "related_images" : ['./images/ru/treehouse.jpg'],
+        "related_images" : ['./images/ru/events/treehouse.jpg'],
         "category": "Точки Интереса",
         "icon": "./icons/ru/treehouse.png",
         "xPos": 370,
@@ -1569,7 +1569,7 @@ const points = [
     {
         "name": "Старая винтовка",
         "description": "Ну давай, давай. Попробуй, стрельни.",
-        "related_images" : ['./images/ru/oldgun1.jpg', './images/ru/oldgun2.jpg'],
+        "related_images" : ['./images/ru/tools/oldgun1.jpg', './images/ru/tools/oldgun2.jpg'],
         "category": "",
         "icon": "./icons/ru/old_rifle.png",
         "xPos": -204,
@@ -1607,7 +1607,7 @@ const points = [
     {
         "name": "Банка с мёдом",
         "description": "На столбе, можно залезть с помощью крюка.",
-        "related_images" : ['./images/ru/honeyjar.jpg'],
+        "related_images" : ['./images/ru/tools/honeyjar.jpg'],
         "category": "",
         "icon": "./icons/ru/honeyjar.png",
         "xPos": -352.02,
@@ -1616,7 +1616,7 @@ const points = [
     {
         "name": "Карта от бункера",
         "description": "Карта для открытия входной двери в бункер. Подбирается с помощью крюка через окошко. <br><br>Вторая дверь открывается с помощью сменщика паролей, который можно приобрести в магазине.",
-        "related_images" : ['./images/ru/bunkercard1.jpg', './images/ru/bunkercard2.jpg', './images/ru/bunkercard3.jpg'],
+        "related_images" : ['./images/ru/tools/bunkercard1.jpg', './images/ru/tools/bunkercard2.jpg', './images/ru/tools/bunkercard3.jpg'],
         "category": "Инструменты",
         "icon": "./icons/ru/keycard.png",
         "xPos": 18.9,
@@ -1663,7 +1663,7 @@ const points = [
     {
         "name": "Постеры Ариралов",
         "description": "1111111111111",
-        "related_images" : ['./images/ru/poster_arirals.jpg'],
+        "related_images" : ['./images/ru/decor/posters/poster_arirals.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/111111111.png",
         "xPos": 111111111,
@@ -1673,7 +1673,7 @@ const points = [
     {
         "name": "Камера",
         "description": "Камера, которая доступна в самом начале игры (но её нужно активировать) и имеет уникальную модель.",
-        "related_images" : ['./images/ru/basecam.jpg'],
+        "related_images" : ['./images/ru/tools/basecam.jpg'],
         "category": "",
         "icon": "./icons/ru/basecam.png",
         "xPos": 1.7,
@@ -1682,7 +1682,7 @@ const points = [
     {
         "name": "\"Керфур Омега\" полная инструкция",
         "description": "Книга, которая обязательна при создании Керфур-О. Находится в бункере возле Базы, в углу комнаты, за ящиками.",
-        "related_images" : ['./images/ru/omegabook1.jpg', './images/ru/omegabook2.jpg'],
+        "related_images" : ['./images/ru/tools/omegabook1.jpg', './images/ru/tools/omegabook2.jpg'],
         "category": "Части Керфур-О",
         "icon": "./icons/ru/kerfurbook.png",
         "xPos": 21,
@@ -1721,7 +1721,7 @@ const points = [
     {
         "name": "Декор в TR_1",
         "description": "3 мусорки<br>Стол<br>4 стула<br>Стол<br>Монитор<br>Клавиатура<br>Комп. мышь<br>Комп. блок<br>Тумбочка<br>Подушка<br>2 горшка",
-        "related_images" : ['./images/ru/tr1_decor1.jpg', './images/ru/tr1_decor2.jpg', './images/ru/tr1_decor3.jpg', './images/ru/tr1_decor4.jpg', ],
+        "related_images" : ['./images/ru/decor/tr1_decor1.jpg', './images/ru/decor/tr1_decor2.jpg', './images/ru/decor/tr1_decor3.jpg', './images/ru/decor/tr1_decor4.jpg', ],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
         "xPos": 396.1,
@@ -1730,7 +1730,7 @@ const points = [
     {
         "name": "Декор в TR_2",
         "description": "2 скамейки<br>Бочка, 2 таблички \"мокрый пол\"<br>3 дорожных конуса<br>Стол<br>Стул<br>Монитор<br>Комп. блок<br>Клавиатура<br>Мусорка",
-        "related_images" : ['./images/ru/tr2_decor1.jpg', './images/ru/tr2_decor2.jpg', './images/ru/tr2_decor3.jpg', './images/ru/tr2_decor4.jpg', './images/ru/tr2_decor5.jpg', './images/ru/tr2_decor6.jpg', ],
+        "related_images" : ['./images/ru/decor/tr2_decor1.jpg', './images/ru/decor/tr2_decor2.jpg', './images/ru/decor/tr2_decor3.jpg', './images/ru/decor/tr2_decor4.jpg', './images/ru/decor/tr2_decor5.jpg', './images/ru/decor/tr2_decor6.jpg', ],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
         "xPos": -546,
@@ -1739,7 +1739,7 @@ const points = [
     {
         "name": "Декор в TR_3",
         "description": "Мусорка<br>Бочка<br>Медицинский столик<br>Мед. принадлежности<br>Осциллограф<br>Раковина<br>Кроватка для кошечки<br>Табличка \"мокрый пол\"<br>Ящик<br>Покрышка<br>Пластиковый стул<br>Табличка \"не работает\"<br>Монитор<br>3 комп. мыши<br>2 комп. блока",
-        "related_images" : ['./images/ru/tr3_decor1.jpg', './images/ru/tr3_decor2.jpg', './images/ru/tr3_decor3.jpg', './images/ru/tr3_decor4.jpg', './images/ru/tr3_decor5.jpg', './images/ru/catbed.jpg'],
+        "related_images" : ['./images/ru/decor/tr3_decor1.jpg', './images/ru/decor/tr3_decor2.jpg', './images/ru/decor/tr3_decor3.jpg', './images/ru/decor/tr3_decor4.jpg', './images/ru/decor/tr3_decor5.jpg', './images/ru/catbed.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
         "xPos": -396.5,
@@ -1748,7 +1748,7 @@ const points = [
     {
         "name": "Возле Tango",
         "description": "5 мусорок",
-        "related_images" : ['./images/ru/decor_right1.jpg'],
+        "related_images" : ['./images/ru/decor/decor_right1.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
         "xPos": 514.4,
@@ -1757,7 +1757,7 @@ const points = [
     {
         "name": "Возле Tango",
         "description": "5 скамеек<br>2 мусорки",
-        "related_images" : ['./images/ru/decor_right2.jpg'],
+        "related_images" : ['./images/ru/decor/decor_right2.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
         "xPos": 487.6,
