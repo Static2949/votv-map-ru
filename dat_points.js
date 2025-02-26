@@ -5,7 +5,7 @@ const points = [
         "description": "Находится в углу на крыше гаража возле одного из бургеров. Имеет 256.0 топлива.",
         "related_images" : ['./images/ru/tinycan1.jpg', './images/ru/tinycan2.jpg'],
         "category": "",
-        "icon": "./icons/ru/gastiny.png",
+        "icon": "./icons/ru/gascan.png",
         "xPos": -15.1,
         "yPos": 12.3
     },
@@ -1561,7 +1561,7 @@ const points = [
         "description": "Для начала ритуала, нужно собрать 7 черепов и положить их на выженную землю.",
         "related_images" : ['./images/ru/111111111.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/ru/stonehedge.png",
+        "icon": "./icons/ru/111111111.png",
         "xPos": 213.47,
         "yPos": 542.05
     },
@@ -1699,7 +1699,7 @@ const points = [
     },
     {
         "name": "Осиное гнездо",
-        "description": "Если находиться к нему близко, то из него вылетают злые осы, которые могут вас убить!<br>Осы пропадают, если взять улей в инвентарь.<br>Вероятно, будут использоваться в улье для фермы мёда.",
+        "description": "Если находиться к нему близко, то из него вылетают злые осы, которые могут вас убить!<br>Осы пропадают, если взять улей в инвентарь.<br>Вероятно, будут использоваться в улье для фермы мёда.<br>есле ты сломаеш гнездо то смерд жестоко очен смерд будит понел",
         "related_images" : ['./images/ru/bees.jpg'],
         "category": "",
         "icon": "./icons/ru/waspnest.png",
@@ -1720,7 +1720,7 @@ const points = [
 
     {
         "name": "Декор в TR_1",
-        "description": "3 мусорки, стол, 4 стула, стол, монитор, клавиатура, комп. мышь, комп. блок, тумбочка, подушка, 2 горшка",
+        "description": "3 мусорки<br>Стол<br>4 стула<br>Стол<br>Монитор<br>Клавиатура<br>Комп. мышь<br>Комп. блок<br>Тумбочка<br>Подушка<br>2 горшка",
         "related_images" : ['./images/ru/tr1_decor1.jpg', './images/ru/tr1_decor2.jpg', './images/ru/tr1_decor3.jpg', './images/ru/tr1_decor4.jpg', ],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
@@ -1729,7 +1729,7 @@ const points = [
     },
     {
         "name": "Декор в TR_2",
-        "description": "2 скамейки, бочка, 2 таблички \"мокрый пол\", 3 дорожных конуса, стол, стул, монитор, комп. блок, клавиатура, мусорка",
+        "description": "2 скамейки<br>Бочка, 2 таблички \"мокрый пол\"<br>3 дорожных конуса<br>Стол<br>Стул<br>Монитор<br>Комп. блок<br>Клавиатура<br>Мусорка",
         "related_images" : ['./images/ru/tr2_decor1.jpg', './images/ru/tr2_decor2.jpg', './images/ru/tr2_decor3.jpg', './images/ru/tr2_decor4.jpg', './images/ru/tr2_decor5.jpg', './images/ru/tr2_decor6.jpg', ],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
@@ -1738,7 +1738,7 @@ const points = [
     },
     {
         "name": "Декор в TR_3",
-        "description": "Мусорка, бочка, медицинский столик, мед. принадлежности, осциллограф, раковина, кроватка для кошечки, табличка \"мокрый пол\", ящик, покрышка, пластиковый стул, табличка \"не работает\", монитор, 3 комп. мыши, 2 комп. блока",
+        "description": "Мусорка<br>Бочка<br>Медицинский столик<br>Мед. принадлежности<br>Осциллограф<br>Раковина<br>Кроватка для кошечки<br>Табличка \"мокрый пол\"<br>Ящик<br>Покрышка<br>Пластиковый стул<br>Табличка \"не работает\"<br>Монитор<br>3 комп. мыши<br>2 комп. блока",
         "related_images" : ['./images/ru/tr3_decor1.jpg', './images/ru/tr3_decor2.jpg', './images/ru/tr3_decor3.jpg', './images/ru/tr3_decor4.jpg', './images/ru/tr3_decor5.jpg', './images/ru/catbed.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
@@ -1756,7 +1756,7 @@ const points = [
     },
     {
         "name": "Возле Tango",
-        "description": "5 скамеек, 2 мусорки",
+        "description": "5 скамеек<br>2 мусорки",
         "related_images" : ['./images/ru/decor_right2.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
@@ -1774,7 +1774,7 @@ const points = [
     },
     {
         "name": "Декор Дыры",
-        "description": "4 фонаря, 2 стола, 3 мусорки, 5 стульев, бочка",
+        "description": "4 фонаря<br>2 стола<br>3 мусорки<br>5 стульев<br>бочка",
         "related_images" : ['./images/ru/hole_decor1.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
@@ -1801,6 +1801,97 @@ const points = [
         "yPos": -490
     },
 
+    {
+        "name": "Инструменты на Базе",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+
+    {
+        "name": "Инструменты в TR_1",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Инструменты в TR_2",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Инструменты в TR_3",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Инструменты в Дыре",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Инструменты",
+        "icon": "./icons/ru/111111111.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Канистры на Базе",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Канистры с топливом",
+        "icon": "./icons/ru/gascan.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Канистры в TR_1",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Канистры с топливом",
+        "icon": "./icons/ru/gascan.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Канистры TR_2",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Канистры с топливом",
+        "icon": "./icons/ru/gascan.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Канистры TR_3",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Канистры с топливом",
+        "icon": "./icons/ru/gascan.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
+    {
+        "name": "Канистры в Дыре",
+        "description": "1111111111111",
+        "related_images" : ['./images/ru/111111111.jpg'],
+        "category": "Канистры с топливом",
+        "icon": "./icons/ru/gascan.png",
+        "xPos": 111111111,
+        "yPos": 111111111
+    },
     {
         "name": "11111111",
         "description": "1111111111111",
