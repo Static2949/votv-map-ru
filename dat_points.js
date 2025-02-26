@@ -77,7 +77,7 @@ const points = [
         "description": "В офисном помещении Трансформатора 3, закидано мусором поверх.<br><br>Позволяет ходить по более крутым поверхностям, частично спасает от урона при падении.",
         "related_images" : ['./images/questwalker/equipment/hikingBoots1_1.png'],
         "category": "Экипировка",
-        "icon": "./icons/hiking_boots.png",
+        "icon": "./icons/questwalker/equipment/hiking_boots.png",
         "xPos": -402.4,
         "yPos": -478.67
     },
@@ -185,7 +185,7 @@ const points = [
         "description": "Мотошлем уменьшает количество урона головы, что также может снижать количество урона получаемое от падений. Можно попытаться получить шлем аккуратно спускаясь по скале и камням но, лучше, всё-таки использовать крюк.",
         "related_images" : ['./images/questwalker/equipment/helmet1_1.png', './images/questwalker/equipment/helmet1_2.png', './images/questwalker/equipment/helmet1_3.png', './images/ru/equipment/helmet_close.jpg'],
         "category": "Экипировка",
-        "icon": "./icons/helmet.png",
+        "icon": "./icons/questwalker/equipment/helmet.png",
         "xPos": -50.6,
         "yPos": 630
     },
@@ -248,7 +248,7 @@ const points = [
         "description": "<div style=\"color: red;\">НЕ СТОЙТЕ У НЕЁ, ОНА ДЕЙСТВИТЕЛЬНО РАДИОАКТИВНА!<br><br>ДЛЯ БЕЗОПАСНОГО ИЗВЛЕЧЕНИЯ И ПЕРЕНОСКИ ПОТРЕБУЕТСЯ ПРОТИВОРАДИОЦИОННЫЙ КОСТЮМ!</div>Торчит из земли возле скелета. Для выкапывания потребуется лопата.",
         "related_images" : ['./images/questwalker/tools/radioactiveCapsule1_1.png', './images/questwalker/tools/radioactiveCapsule1_2.png', './images/questwalker/tools/radioactiveCapsule1_3.png'],
         "category": "",
-        "icon": "./icons/radioactive_canister.png",
+        "icon": "./icons/questwalker/tools/radioactive_canister.png",
         "xPos": -569.5,
         "yPos": 303.3
     },
@@ -257,7 +257,7 @@ const points = [
         "description": "Закопана возле упавшего фонаря. Помогает находить аномалии. Сигналы детектора усиливаются, например, в подвале Базы, у Стоунхеджа, в Хижине Охотника.",
         "related_images" : ['./images/questwalker/equipment/emfDetector1_1.png'],
         "category": "Инструменты",
-        "icon": "./icons/emf_detector.png",
+        "icon": "./icons/questwalker/tools/emf_detector.png",
         "xPos": -623,
         "yPos": -33.8
     },
@@ -266,7 +266,7 @@ const points = [
         "description": "Застряла в земле под водой, возле ветки. Желательно иметь при себе подводную маску.",
         "related_images" : ['./images/ru/tools/pickaxe.jpg'],
         "category": "Инструменты",
-        "icon": "./icons/pickaxe.png",
+        "icon": "./icons/questwalker/tools/pickaxe.png",
         "xPos": 390.8,
         "yPos": -383.5
     },
@@ -275,7 +275,7 @@ const points = [
         "description": "Античный подсвечник, который можно выкопать, находясь в бревне, под водой. Пасхалка в честь ютубера <a href=\"https://www.youtube.com/channel/UCnCmb1vpv90EeSX5g7K4UYQ\" target=\"_blank\" rel=\"noopener noreferrer\">The Librarian</a>. Для зажжения используйте зажигалку.",
         "related_images" : ['./images/ru/tools/candle1.jpg', './images/ru/tools/candle2.jpg', './images/ru/tools/candle3.jpg'],
         "category": "Инструменты",
-        "icon": "./icons/candle.png",
+        "icon": "./icons/questwalker/tools/candle.png",
         "xPos": 378.5,
         "yPos": -461
     },
@@ -447,7 +447,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/b.png",
+        "icon": "./icons/letters/b.png",
         "xPos": -100,
         "yPos": -200
     },
@@ -456,7 +456,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/c.png",
+        "icon": "./icons/letters/c.png",
         "xPos": 0,
         "yPos": -200
     },
@@ -465,7 +465,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/d.png",
+        "icon": "./icons/letters/d.png",
         "xPos": 100,
         "yPos": -200
     },
@@ -474,7 +474,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/e.png",
+        "icon": "./icons/letters/e.png",
         "xPos": 200,
         "yPos": -100
     },
@@ -483,7 +483,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/f.png",
+        "icon": "./icons/letters/f.png",
         "xPos": 200,
         "yPos": 0
     },
@@ -492,7 +492,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/g.png",
+        "icon": "./icons/letters/g.png",
         "xPos": 200,
         "yPos": 100
     },
@@ -501,7 +501,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/h.png",
+        "icon": "./icons/letters/h.png",
         "xPos": 100,
         "yPos": 200
     },
@@ -510,7 +510,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/i.png",
+        "icon": "./icons/letters/i.png",
         "xPos": 0,
         "yPos": 200
     },
@@ -519,7 +519,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/j.png",
+        "icon": "./icons/letters/j.png",
         "xPos": -100,
         "yPos": 200
     },
@@ -528,7 +528,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/k.png",
+        "icon": "./icons/letters/k.png",
         "xPos": -200,
         "yPos": 100
     },
@@ -537,7 +537,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/l.png",
+        "icon": "./icons/letters/l.png",
         "xPos": -200,
         "yPos": 0
     },
@@ -546,7 +546,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/m.png",
+        "icon": "./icons/letters/m.png",
         "xPos": -200,
         "yPos": -100
     },
@@ -555,7 +555,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/n.png",
+        "icon": "./icons/letters/n.png",
         "xPos": -300,
         "yPos": -300
     },
@@ -564,7 +564,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/o.png",
+        "icon": "./icons/letters/o.png",
         "xPos": 300,
         "yPos": -300
     },
@@ -573,7 +573,7 @@ const points = [
         "description": "Мама.",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/p.png",
+        "icon": "./icons/letters/p.png",
         "xPos": 300,
         "yPos": 300
     },
@@ -582,7 +582,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/q.png",
+        "icon": "./icons/letters/q.png",
         "xPos": -300,
         "yPos": 300
     },
@@ -591,7 +591,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/r.png",
+        "icon": "./icons/letters/r.png",
         "xPos": -500,
         "yPos": -500
     },
@@ -600,7 +600,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/s.png",
+        "icon": "./icons/letters/s.png",
         "xPos": 0,
         "yPos": -500
     },
@@ -609,7 +609,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/t.png",
+        "icon": "./icons/letters/t.png",
         "xPos": 500,
         "yPos": -500
     },
@@ -618,7 +618,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/u.png",
+        "icon": "./icons/letters/u.png",
         "xPos": 500,
         "yPos": 0
     },
@@ -627,7 +627,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/v.png",
+        "icon": "./icons/letters/v.png",
         "xPos": 500,
         "yPos": 500
     },
@@ -636,7 +636,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/w.png",
+        "icon": "./icons/letters/w.png",
         "xPos": 0,
         "yPos": 500
     },
@@ -645,7 +645,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/x.png",
+        "icon": "./icons/letters/x.png",
         "xPos": -500,
         "yPos": 500
     },
@@ -654,7 +654,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/y.png",
+        "icon": "./icons/letters/y.png",
         "xPos": -500,
         "yPos": 0
     },
@@ -663,7 +663,7 @@ const points = [
         "description": "",
         "related_images" : [],
         "category": "Радиотелескопы",
-        "icon": "./icons/z.png",
+        "icon": "./icons/letters/z.png",
         "xPos": 10000,
         "yPos": 10000
     },
@@ -783,7 +783,7 @@ const points = [
         "description": "Сидит в крутой яме. Выбраться из ямы можно крюком, или телепортировавшись, нажав на пончик.",
         "related_images" : ['./images/questwalker/plush//argemia/redArgemia1_1.png', './images/questwalker/plush//argemia/redArgemia1_2.png', './images/questwalker/plush//argemia/redArgemia1_3.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/red_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/red_argemia.png",
         "xPos": 626,
         "yPos": -128
     },
@@ -792,7 +792,7 @@ const points = [
         "description": "Да, за забором. Сидит на высокой горе, любуясь видом.",
         "related_images" : ['./images/questwalker/plush//argemia/greenArgemia1_1.png', './images/questwalker/plush//argemia/greenArgemia1_2.png', './images/questwalker/plush//argemia/greenArgemia1_3.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/green_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/green_argemia.png",
         "xPos": 239,
         "yPos": 828
     },
@@ -801,7 +801,7 @@ const points = [
         "description": "In the river near quebec.",
         "related_images" : ['./images/questwalker/plush//argemia/blueArgemia1_1.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/blue_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/blue_argemia.png",
         "xPos": -315,
         "yPos": 398
     },
@@ -810,7 +810,7 @@ const points = [
         "description": "Для призыва плюши нужно положить ровно 12 упаковок креветок в мини-бассейн на Базе. После этого нужно совершить взрыв в воде – для этого можно использовать канистру или взрывную бочку.",
         "related_images" : ['./images/questwalker/plush//argemia/cyanArgemia1_1.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/cyan_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/cyan_argemia.png",
         "xPos": -8.5,
         "yPos": 23.5
     },
@@ -819,7 +819,7 @@ const points = [
         "description": "Появляется после получения сигнала <i>“Розовый Луч”</i>.",
         "related_images" : ['./images/questwalker/plush//argemia/magentaArgemia1_1.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/magenta_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/magenta_argemia.png",
         "xPos": 637.5,
         "yPos": 46.8
     },
@@ -828,7 +828,7 @@ const points = [
         "description": "The yellow Argemia plush requires a ritual to spawn.<br>- First, place a shrimp pack (or multiple) at each corner of the map's fence.<br>- Next, place a shrimp pack on the sewer drain in the basement.<br>- Then, nearing 12:50 at night, stand in a corner of the basement and face away from the shrimp. Around 00:00, a wooshing sound will play, and you can turn to find the argemia summoned. It might take a couple minutes to spawn, so do not turn until you hear it spawn or at least 00:15.<br><br>You can use a clock/watch to help keep track of time. This ritual can be difficult to preform due to cockroaches or Arirals eating the shrimp you've placed.",
         "related_images" : ['./images/questwalker/plush//argemia/yellowArgemia1_1.png', './images/questwalker/plush//argemia/yellowArgemia1_2.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/yellow_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/yellow_argemia.png",
         "xPos": -11,
         "yPos": 23
     },
@@ -837,7 +837,7 @@ const points = [
         "description": "Ты что, кошканутый? Шо ты там делаешь? Самое абсурдное место!<br><br>Сидит на невидимом кубе высоко в небе. Сбить её предметами нельзя, поэтому придётся добираться до неё самостоятельно.<br><br>Можно лезть вверх барьера с помощью крюка, а можно взлететь на стуле, используя воздушные шарики.",
         "related_images" : ['./images/questwalker/plush//argemia/glowingBlueArgemia1_1.png', './images/questwalker/plush//argemia/glowingBlueArgemia1_2.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/glowing_blue_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/glowing_blue_argemia.png",
         "xPos": 872,
         "yPos": -792
     },
@@ -846,7 +846,7 @@ const points = [
         "description": "Needs to be dug up using a shovel. You can use a metal detector if you're having any trouble finding it. Be careful to not let the plushie roll down the hill.",
         "related_images" : ['./images/questwalker/plush//argemia/glowingCyanArgemia1_1.png', './images/questwalker/plush//argemia/glowingCyanArgemia1_2.png', './images/questwalker/plush//argemia/glowingCyanArgemia1_3.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/glowing_cyan_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/glowing_cyan_argemia.png",
         "xPos": -634,
         "yPos": 181.4
     },
@@ -855,7 +855,7 @@ const points = [
         "description": "The plush's spawn location is located near the top of the tower. In order for the plush to spawn, something (a piece of trash, a drone, etc.) needs to enter the spawning location's hitbox. The usual method is placing a drone around (35.22, -37.23) and then having the drone fly straight up. You can use a digital map to place the drone accurately.<br>When the plush spawns, it will fall. Make sure to watch the drone's camera and check outside often so you don't miss it.",
         "related_images" : ['./images/questwalker/plush//argemia/glowingMagentaArgemia1_1.png', './images/questwalker/plush//argemia/glowingMagentaArgemia1_2.png'],
         "category": "Плюши Аргемии",
-        "icon": "./icons/glowing_magenta_argemia.png",
+        "icon": "./icons/questwalker/plush/argem/glowing_magenta_argemia.png",
         "xPos": 35.22,
         "yPos": -37.23
     },
@@ -864,7 +864,7 @@ const points = [
         "description": "Appears in the nest in the antibreather cave at 3:33am in-game. In order for it to spawn, you must be in the cave when the time passes. The plush won't disappear, but the plush only spawns in once, so don't lose it.<br>To open the cave, you need to be in the cave entrance when either wolfgang or the antibreather goes through it.",
         "related_images" : ['./images/antibreatherPlush1_1.png', './images/antibreatherPlush1_2.png'],
         "category": "Другие плюши",
-        "icon": "./icons/antibreather_plush.png",
+        "icon": "./icons/questwalker/plush/antibreather_plush.png",
         "xPos": -672.7,
         "yPos": -567
     },
@@ -874,7 +874,7 @@ const points = [
         "description": "Лежит между камней. Активируется при получении сигнала <i>“Розовый Луч”</i>",
         "related_images" : ['./images/rozitalTech1_1.png', './images/rozitalTech1_2.png', './images/rozitalTech1_3.png', './images/rozitalTech1_4.png'],
         "category": "Точки Интереса",
-        "icon": "./icons/rozital.png",
+        "icon": "./icons/questwalker/places/rozital.png",
         "xPos": 637,
         "yPos": 44
     },
@@ -901,7 +901,7 @@ const points = [
         "description": "Мурашащяя старая хижина, в которой находятся множество интересных вещей.<br>Также три головы животных и шкура животного, которыми можно украсить свою базу.",
         "related_images" : ['./images/ru/places/hunter.jpg', './images/ru/places/hunter_heads.jpg', './images/ru/places/hunter_skin.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/shack.png",
+        "icon": "./icons/questwalker/places/shack.png",
         "xPos": 408.5,
         "yPos": 24.3
     },
@@ -919,7 +919,7 @@ const points = [
         "description": "Закрыт досками, которые можно сломать.<br><br>Переносит игрока в отдельную локацию, если в нём уснуть. На дне лежат кости и крюк.",
         "related_images" : ['./images/well1_1.png','./images/well1_2.png', './images/ru/equipment/well_hook.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/well.png",
+        "icon": "./icons/questwalker/places/well.png",
         "xPos": 564.4,
         "yPos": 265.7
     },
@@ -928,7 +928,7 @@ const points = [
         "description": "Люк не открывается.",
         "related_images" : ['./images/ru/places/bunker.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/bunker.png",
+        "icon": "./icons/questwalker/places/bunker.png",
         "xPos": 60.25,
         "yPos": 625.5
     },
@@ -937,7 +937,7 @@ const points = [
         "description": "Появляется на 8-ой день.",
         "related_images" : ['./images/ru/events/picnic1.jpg', './images/ru/events/picnic2.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/picnic_blanket.png",
+        "icon": "./icons/questwalker/places/picnic_blanket.png",
         "xPos": -199,
         "yPos": -483
     },
@@ -946,7 +946,7 @@ const points = [
         "description": "Сюда перемещается игрок после выхода из локации Ритуального Алтаря.",
         "related_images" : ['./images/ru/places/graves.jpg'],
         "category": "Точки Интереса",
-        "icon": "./icons/grave.png",
+        "icon": "./icons/questwalker/places/grave.png",
         "xPos": -347.4,
         "yPos": -565.4
     },
@@ -1247,7 +1247,7 @@ const points = [
         "description": "Стоит возле трёх ящиков с припасами возле Стоунхеджа.",
         "related_images" : ['./images/questwalker/tools/shovel/shovel1_1.png'],
         "category": "Инструменты",
-        "icon": "./icons/shovel.png",
+        "icon": "./icons/questwalker/tools/shovel.png",
         "xPos": 209.2,
         "yPos": 535.2
     },
@@ -1256,7 +1256,7 @@ const points = [
         "description": "Стоит у стены возле Красного Куста.",
         "related_images" : ['./images/ru/tools/shovel/shovel_hunter.jpg'],
         "category": "Инструменты",
-        "icon": "./icons/shovel.png",
+        "icon": "./icons/questwalker/tools/shovel.png",
         "xPos": 408.36,
         "yPos": 20.95
     },
@@ -1265,7 +1265,7 @@ const points = [
         "description": "Внутри будки охранника. Дверь будки можно сломать. Например, камнем или ломом.",
         "related_images" : ['./images/ru/tools/shovel/shovel_guard.jpg'],
         "category": "Инструменты",
-        "icon": "./icons/shovel.png",
+        "icon": "./icons/questwalker/tools/shovel.png",
         "xPos": -369.12,
         "yPos": 702.32
     },
@@ -1274,7 +1274,7 @@ const points = [
         "description": "В TR_2.",
         "related_images" : ['./images/questwalker/tools/shovel/shovel4_1.png'],
         "category": "Инструменты",
-        "icon": "./icons/shovel.png",
+        "icon": "./icons/questwalker/tools/shovel.png",
         "xPos": -543.53,
         "yPos": 237.09
     },
@@ -1283,7 +1283,7 @@ const points = [
         "description": "На полке в TR_1.",
         "related_images" : ['./images/tr1_tools.jpg'],
         "category": "Инструменты",
-        "icon": "./icons/watering_can.png",
+        "icon": "./icons/questwalker/tools/watering_can.png",
         "xPos": 398.72,
         "yPos": 197.67
     },
@@ -1292,7 +1292,7 @@ const points = [
         "description": "В TR_2.",
         "related_images" : ['./images/questwalker/tools/wateringcan/wateringCan2_1.png'],
         "category": "Инструменты",
-        "icon": "./icons/watering_can.png",
+        "icon": "./icons/questwalker/tools/watering_can.png",
         "xPos": -549.13,
         "yPos": 236.71
     },
@@ -1301,7 +1301,7 @@ const points = [
         "description": "В углу TR_3.",
         "related_images" : ['./images/questwalker/tools/wateringcan/wateringCan3_1.png'],
         "category": "Инструменты",
-        "icon": "./icons/watering_can.png",
+        "icon": "./icons/questwalker/tools/watering_can.png",
         "xPos": -402.26,
         "yPos": -477.54
     },
@@ -1310,7 +1310,7 @@ const points = [
         "description": "В Хижине охотника, под кроватью.",
         "related_images" : ['./images/questwalker/equipment/axe1_1.png'],
         "category": "Инструменты",
-        "icon": "./icons/axe.png",
+        "icon": "./icons/questwalker/tools/axe.png",
         "xPos": 406.5,
         "yPos": 22.5
     },
