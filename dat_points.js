@@ -1597,7 +1597,7 @@ const points = [
     {
         "name": "Белая Аргемия",
         "description": "Компьютер указан потому, что для её получения вам потребуется промышленный 3D принтер.<br>А как конкретно её получать - поищите в интернете, там всё сложно.",
-        "related_images" : ['./images/ru/111111111.jpg'],
+        "related_images" : ['./images/ru/plush/argem_superhard.jpg'],
         "category": "Плюши Аргемии",
         "icon": "./icons/ru/plush_argemia_white.png",
         "xPos": 3.33,
@@ -1690,7 +1690,7 @@ const points = [
     },
     {
         "name": "Дыра в заборе",
-        "description": "1111111111111",
+        "description": "<div style=\"color: red;\">6blCTPA YLLleJl aTCl-0gaBa noHeJl??? He cMeu ugTu gaJIbLLle!!!!!!! YXAgu!!!!!!!!! 3a6ygb npo eTo MecTo!!! KblLLl!!!!!!!</div>",
         "related_images" : ['./images/ru/places/fence.jpg'],
         "category": "",
         "icon": "./icons/ru/111111111.png",
@@ -1700,7 +1700,7 @@ const points = [
     {
         "name": "Осиное гнездо",
         "description": "Если находиться к нему близко, то из него вылетают злые осы, которые могут вас убить!<br>Осы пропадают, если взять улей в инвентарь.<br>Вероятно, будут использоваться в улье для фермы мёда.<br>есле ты сломаеш гнездо то смерд жестоко очен смерд будит понел",
-        "related_images" : ['./images/ru/bees.jpg'],
+        "related_images" : ['./images/ru/wasps.jpg'],
         "category": "",
         "icon": "./icons/ru/waspnest.png",
         "xPos": 420,
@@ -1764,13 +1764,13 @@ const points = [
         "yPos": -410.6
     },
     {
-        "name": "11111111",
-        "description": "тут штучки возле козла",
-        "related_images" : ['./images/ru/111111111.jpg'],
+        "name": "Возле Статуи Козла",
+        "description": "5 скамеек<br>3 мусорки",
+        "related_images" : ['./images/ru/goat_decor1.jpg', './images/ru/goat_decor2.jpg'],
         "category": "Декор",
         "icon": "./icons/ru/decor.png",
-        "xPos": 111111111,
-        "yPos": 111111111
+        "xPos": 12.65,
+        "yPos": 580.8
     },
     {
         "name": "Декор Дыры",
